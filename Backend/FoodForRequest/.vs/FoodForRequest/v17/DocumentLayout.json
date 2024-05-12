@@ -1,0 +1,1043 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\controllers\\foodrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\foodrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\controllers\\foodusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\foodusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\controllers\\ingridientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\ingridientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\controllers\\offercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\offercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\ingridientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\ingridientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\iofferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\iofferrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\offerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\offerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\ifooduserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\ifooduserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\iingridientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\iingridientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\services\\signalrhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\services\\signalrhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\984b0a1264ae39292a0ccb20444054c05aaed1affaa0b6103af7ac19a9b2e79f\\src\\Middleware\\CORS\\src\\Infrastructure\\CorsPolicyBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\migrations\\20230524144010_nullfoodid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\migrations\\20230524144010_nullfoodid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\fooduserinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\fooduserinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\fooduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\fooduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\foodrequestcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\foodrequestcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\foodrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\foodrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\foodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\foodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\ifoodrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\ifoodrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\a630d573905f7eb28c5059881b7365a8316301499009835ff4b8c117c035687e\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\fooduserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\fooduserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\foodrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\foodrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\4007d6ce5f77e4e7d0f671c79dcb67b061830092e3eade164d442daefdfdf1cb\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ControllerActionInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\data\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\data\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\ingredientcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\ingredientcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\ingredientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\ingredientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\offerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\offerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\foodforrequest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\foodforrequest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230521170844_picurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\foodforrequest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\foodforrequest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\016eba5144bfb672d685a511621cc2d4e61da430fe2bde3e5576c588ece1a5b6\\src\\EFCore.Relational\\Update\\ReaderModificationCommandBatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\a0506616d90b97ad9e06fca65892d8984c60f8c601e78eb2345114bf776b129a\\src\\Mvc\\Mvc.Core\\src\\ApplicationModels\\InferParameterBindingInfoConvention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510182653_offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510104008_rename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509203928_inglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509195613_ing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\24fe4a371e5454e86ae0d17589b0281dff7a4bf05a2b0000dd2d2eaee9f9d0d5\\src\\Middleware\\Diagnostics\\src\\DeveloperExceptionPage\\DeveloperExceptionPageMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\899eb2b16f389aca8258508825e377afb208cbb0f4f161869e8abac93a2249c7\\src\\Http\\Http.Abstractions\\src\\Extensions\\UseMiddlewareExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\97ad8bc99ac6d700e2eaa0c694193684a5ac879f43c69ee46fe2a6e50d7a0bf6\\src\\Security\\Authorization\\Policy\\src\\AuthorizationMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\3e57a8c641fbbb963950696f665544cf58debfd3c87e78e1cbc27eab9617220a\\src\\Http\\Routing\\src\\EndpointMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\b0bd0eba5d1370a8aa64ff33727316fbd13224eb302fe57c2e883b4a4cfeefac\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ResourceInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\5c283cc24917768ee39f56c3a8134c86bc6b3edaa7b79e449d5212d8debeb164\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503184457_in3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171500_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171348_in2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503165910_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\filters\\apiexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\filters\\apiexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf-kumf5h-2022-2023-2-bprof\\kf-kumf5h-2022-2023-2-bprof\\backend\\foodforrequest\\foodforrequest\\hubs\\eventhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D13608-10FC-4DFB-900B-467A5BEFE865}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\hubs\\eventhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\BidController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoodrequestController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\FoodrequestController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\FoodrequestController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\FoodrequestController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\FoodrequestController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IngridientController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\IngridientController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\IngridientController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\IngridientController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\IngridientController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwDwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodUserController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\FoodUserController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\FoodUserController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\FoodUserController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\FoodUserController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwEIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OfferController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\OfferController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\OfferController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\OfferController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\OfferController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IngridientRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IngridientRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\IngridientRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IngridientRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\IngridientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOfferRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IOfferRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\IOfferRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IOfferRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\IOfferRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OfferRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\OfferRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\OfferRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\OfferRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\OfferRepository.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwBgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAmwGEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\Ingredient.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\Ingredient.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\Ingredient.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\Ingredient.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwCEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FooduserInfoViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FooduserInfoViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\FooduserInfoViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FooduserInfoViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\FooduserInfoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SignalRHub.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Services\\SignalRHub.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Services\\SignalRHub.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Services\\SignalRHub.cs",
+              "RelativeToolTip": "FoodForRequest\\Services\\SignalRHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FoodUser.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FoodUser.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\FoodUser.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FoodUser.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\FoodUser.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IingridientRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IingridientRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\IingridientRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IingridientRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\IingridientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\Comment.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\Comment.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Program.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Program.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Program.cs",
+              "RelativeToolTip": "FoodForRequest\\Program.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAQwIMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFoodUserRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IFoodUserRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\IFoodUserRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IFoodUserRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\IFoodUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20230524144010_nullFoodId.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230524144010_nullFoodId.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Migrations\\20230524144010_nullFoodId.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230524144010_nullFoodId.cs",
+              "RelativeToolTip": "FoodForRequest\\Migrations\\20230524144010_nullFoodId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CorsPolicyBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\984b0a1264ae39292a0ccb20444054c05aaed1affaa0b6103af7ac19a9b2e79f\\src\\Middleware\\CORS\\src\\Infrastructure\\CorsPolicyBuilder.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\984b0a1264ae39292a0ccb20444054c05aaed1affaa0b6103af7ac19a9b2e79f\\src\\Middleware\\CORS\\src\\Infrastructure\\CorsPolicyBuilder.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAAwPkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-26T20:59:12.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FoodrequestCreateViewmodel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FoodrequestCreateViewmodel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\FoodrequestCreateViewmodel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FoodrequestCreateViewmodel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\FoodrequestCreateViewmodel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FoodRequestViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FoodRequestViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\FoodRequestViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FoodRequestViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\FoodRequestViewModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FoodRequest.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FoodRequest.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\FoodRequest.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\FoodRequest.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\FoodRequest.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ActionMethodExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\a630d573905f7eb28c5059881b7365a8316301499009835ff4b8c117c035687e\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\a630d573905f7eb28c5059881b7365a8316301499009835ff4b8c117c035687e\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAhwJ0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T15:00:37.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IFoodRequestRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IFoodRequestRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\IFoodRequestRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\IFoodRequestRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\IFoodRequestRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FoodUserRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\FoodUserRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\FoodUserRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\FoodUserRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\FoodUserRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FoodrequestRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\FoodrequestRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\FoodrequestRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\FoodrequestRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\FoodrequestRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ControllerActionInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\4007d6ce5f77e4e7d0f671c79dcb67b061830092e3eade164d442daefdfdf1cb\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ControllerActionInvoker.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\4007d6ce5f77e4e7d0f671c79dcb67b061830092e3eade164d442daefdfdf1cb\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ControllerActionInvoker.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAhwOYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T15:00:40.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\CommentController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAIA3wE4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\CommentRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\CommentRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\CommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Data\\ICommentRepository.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Data\\ICommentRepository.cs",
+              "RelativeToolTip": "FoodForRequest\\Data\\ICommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\appsettings.json",
+              "RelativeDocumentMoniker": "FoodForRequest\\appsettings.json",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\appsettings.json",
+              "RelativeToolTip": "FoodForRequest\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-12T18:15:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IngredientViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\IngredientViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\IngredientViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\IngredientViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\IngredientViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IngredientCreateViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\IngredientCreateViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\IngredientCreateViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\IngredientCreateViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\IngredientCreateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Offer.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\Offer.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\Offer.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\Offer.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\Offer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FoodForRequest\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FoodForRequest\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-12T18:15:48.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OfferViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\OfferViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\OfferViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\OfferViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\OfferViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FoodForRequest",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\FoodForRequest.csproj",
+              "RelativeDocumentMoniker": "FoodForRequest\\FoodForRequest.csproj",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\FoodForRequest.csproj",
+              "RelativeToolTip": "FoodForRequest\\FoodForRequest.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-12T18:15:48.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20230521170844_picurl.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230521170844_picurl.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230521170844_picurl.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230521170844_picurl.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230521170844_picurl.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-21T17:08:44.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FoodForRequest.csproj",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\FoodForRequest.csproj",
+              "RelativeDocumentMoniker": "FoodForRequest\\FoodForRequest.csproj",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\FoodForRequest.csproj",
+              "RelativeToolTip": "FoodForRequest\\FoodForRequest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-12T18:15:48.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReaderModificationCommandBatch.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\016eba5144bfb672d685a511621cc2d4e61da430fe2bde3e5576c588ece1a5b6\\src\\EFCore.Relational\\Update\\ReaderModificationCommandBatch.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\016eba5144bfb672d685a511621cc2d4e61da430fe2bde3e5576c588ece1a5b6\\src\\EFCore.Relational\\Update\\ReaderModificationCommandBatch.cs",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAswAQBAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-10T19:28:11.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\ErrorModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Models\\ErrorModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\ErrorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "InferParameterBindingInfoConvention.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\a0506616d90b97ad9e06fca65892d8984c60f8c601e78eb2345114bf776b129a\\src\\Mvc\\Mvc.Core\\src\\ApplicationModels\\InferParameterBindingInfoConvention.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\a0506616d90b97ad9e06fca65892d8984c60f8c601e78eb2345114bf776b129a\\src\\Mvc\\Mvc.Core\\src\\ApplicationModels\\InferParameterBindingInfoConvention.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAWwFkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-10T18:37:11.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20230510182653_offer.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510182653_offer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510182653_offer.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510182653_offer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510182653_offer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-10T18:26:53.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20230510104008_rename.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510104008_rename.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510104008_rename.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510104008_rename.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230510104008_rename.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-10T10:40:09.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20230509203928_inglist.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509203928_inglist.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509203928_inglist.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509203928_inglist.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509203928_inglist.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T20:39:28.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20230509195613_ing.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509195613_ing.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509195613_ing.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509195613_ing.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230509195613_ing.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T19:56:13.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DeveloperExceptionPageMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\24fe4a371e5454e86ae0d17589b0281dff7a4bf05a2b0000dd2d2eaee9f9d0d5\\src\\Middleware\\Diagnostics\\src\\DeveloperExceptionPage\\DeveloperExceptionPageMiddleware.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\24fe4a371e5454e86ae0d17589b0281dff7a4bf05a2b0000dd2d2eaee9f9d0d5\\src\\Middleware\\Diagnostics\\src\\DeveloperExceptionPage\\DeveloperExceptionPageMiddleware.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAWwF0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T16:28:10.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UseMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\899eb2b16f389aca8258508825e377afb208cbb0f4f161869e8abac93a2249c7\\src\\Http\\Http.Abstractions\\src\\Extensions\\UseMiddlewareExtensions.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\899eb2b16f389aca8258508825e377afb208cbb0f4f161869e8abac93a2249c7\\src\\Http\\Http.Abstractions\\src\\Extensions\\UseMiddlewareExtensions.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAWwG8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T16:28:09.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AuthorizationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\97ad8bc99ac6d700e2eaa0c694193684a5ac879f43c69ee46fe2a6e50d7a0bf6\\src\\Security\\Authorization\\Policy\\src\\AuthorizationMiddleware.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\97ad8bc99ac6d700e2eaa0c694193684a5ac879f43c69ee46fe2a6e50d7a0bf6\\src\\Security\\Authorization\\Policy\\src\\AuthorizationMiddleware.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAWwEAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T16:28:07.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EndpointMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\3e57a8c641fbbb963950696f665544cf58debfd3c87e78e1cbc27eab9617220a\\src\\Http\\Routing\\src\\EndpointMiddleware.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\3e57a8c641fbbb963950696f665544cf58debfd3c87e78e1cbc27eab9617220a\\src\\Http\\Routing\\src\\EndpointMiddleware.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAWwEwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T16:28:07.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ValueTask.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\5c283cc24917768ee39f56c3a8134c86bc6b3edaa7b79e449d5212d8debeb164\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\5c283cc24917768ee39f56c3a8134c86bc6b3edaa7b79e449d5212d8debeb164\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
+              "ViewState": "AQIAAP4CAAAAAAAAAAAWwBADAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T15:00:39.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ResourceInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\b0bd0eba5d1370a8aa64ff33727316fbd13224eb302fe57c2e883b4a4cfeefac\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ResourceInvoker.cs",
+              "ToolTip": "C:\\Users\\bbenc\\AppData\\Local\\SourceServer\\b0bd0eba5d1370a8aa64ff33727316fbd13224eb302fe57c2e883b4a4cfeefac\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ResourceInvoker.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAWwF4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-09T15:00:43.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FoodForRequest\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FoodForRequest\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T18:15:48.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20230503184457_in3.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503184457_in3.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503184457_in3.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503184457_in3.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503184457_in3.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-03T18:44:57.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20230503171500_in.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171500_in.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171500_in.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171500_in.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171500_in.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-03T17:15:00.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20230503171348_in2.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171348_in2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171348_in2.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171348_in2.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503171348_in2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-03T17:13:49.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20230503165910_in.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503165910_in.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503165910_in.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503165910_in.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\backend\\FoodForRequest\\FoodForRequest\\Migrations\\20230503165910_in.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-03T16:59:10.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ApiExceptionFilter.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Filters\\ApiExceptionFilter.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Filters\\ApiExceptionFilter.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Filters\\ApiExceptionFilter.cs",
+              "RelativeToolTip": "FoodForRequest\\Filters\\ApiExceptionFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "BidController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\BidController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\BidController.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\BidController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\BidController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-03T13:52:01.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "FoodForRequest\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "FoodForRequest\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T18:15:48.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Egyetem\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\4.felev\\ANDROID1\\feleves\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Controllers\\ProductController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-05-03T13:52:01.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "EventHub.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Hubs\\EventHub.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Hubs\\EventHub.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF-KUMF5H-2022-2023-2-BPROF\\KF-KUMF5H-2022-2023-2-BPROF\\Backend\\FoodForRequest\\FoodForRequest\\Hubs\\EventHub.cs",
+              "RelativeToolTip": "FoodForRequest\\Hubs\\EventHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:48.576Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

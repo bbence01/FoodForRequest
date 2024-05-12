@@ -1,0 +1,23 @@
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.navbar-scroll-hide {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-scroll-show {
+  transform: translateY(0);
+}
+

@@ -1,0 +1,70 @@
+<body>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 bg-gray-100">
+  <div class="content rounded-lg shadow-lg p-6 bg-white grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="request-details">
+      <img class="request-image w-full h-64 rounded-md object-cover mb-6" [src]="request.pictureUrl || 'https://via.placeholder.com/300x200'" alt="{{request.name}}" />
+      <h2 class="text-2xl mb-2 font-semibold text-indigo-500">{{request.name}}</h2>
+      <p class="mb-2">{{request.description}}</p>
+      <p class="mb-2">Delivery options: {{ request.deliveryoptions }}</p>
+      <p class="mb-2">Payment: {{ request.payment }} Ft</p>
+      <p class="mb-2">Done: {{ request.isDone }}</p>
+      <p class="mb-2">Progress: {{ request.inProgress }}</p>
+
+      <div class="ingredients flex flex-wrap space-x-2">
+        <h3 class="text-lg font-semibold mb-2">Ingredients</h3>
+        <div class="space-x-2">
+          <span class="ingredient px-3 py-1 text-sm rounded-md bg-gray-200 text-gray-800" *ngFor="let ingredient of request.ingredients">
+            {{ingredient.name}}</span>
+        </div>
+      </div>
+
+      <div class="actions mt-5 space-x-4">
+        <button (click)="makeOffer(request)" class="px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600 transition-colors duration-200">
+          Make an Offer</button>
+      </div>
+    </div>
+
+    <div class="extra-details">
+      <div class="offers mb-6 bg-white rounded-lg shadow-lg p-6">
+        <h2 class="text-2xl mb-2 font-semibold text-indigo-500">Offers</h2>
+        <div class="offer p-4 bg-gray-100 rounded-lg mb-4" *ngFor="let offer of offersview">
+          <p class="mb-2 font-medium">From: {{ offer.contractor.email }}</p>
+          <p class="mb-2">Choosen: {{ offer.offer.choosen }}</p>
+          <div class="actions mt-5 space-x-4">
+          <button (click)="deleteOffer(offer.offer.id)" class="px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600 transition-colors duration-200"
+           *ngIf="offer.contractor.id ===  authService.currentUser?.id || authService.currentUser?.admin">Delete Offer</button>
+          <button (click)="acceptOffer(offer)" class="px-4 py-2 rounded-md bg-blue-500 text-white"
+           *ngIf="isRequestOwner && !request.inProgress && !request.isDone && !offer.offer.choosen">Accept Offer</button>
+          <button (click)="cancelRequest()" class="px-4 py-2 rounded-md bg-blue-500 text-white"
+          *ngIf="(isRequestOwner || isChosenOfferContractor()) && request.inProgress && !request.isDone && offer.offer.choosen">Cancel Request</button>
+          <button (click)="completeRequest()" class="px-5 py-2 border-2 border-gray-800 text-gray-800 rounded-md"
+          *ngIf="(isRequestOwner || isChosenOfferContractor()) && request.inProgress && !request.isDone && offer.offer.choosen">Complete Request</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="comments mb-6 bg-white rounded-lg shadow-lg p-6">
+        <h2 class="text-2xl mb-2 font-semibold text-indigo-500">Comments</h2>
+        <div class="comment p-4 bg-gray-100 rounded-lg mb-4" *ngFor="let comment of comments">
+          <p class="mb-2">{{ comment.text }}</p>
+          <span class="author font-medium">By: {{ comment.contractorId }}</span>
+          <div class="actions mb-6 bg-white rounded-lg shadow-lg p-6">
+            <button (click)="deleteComment(comment.id)" class="px-4 py-2 rounded-md bg-blue-500 text-white" *ngIf="comment.contractorId ===  authService.currentUser?.id || authService.currentUser?.admin">Delete Comment</button>
+          </div>
+        </div>
+
+        <textarea [(ngModel)]="newComment" placeholder="Add a comment..." class="p-2 w-full bg-gray-200 rounded-md mb-2 resize-none"></textarea>
+        <button (click)="addComment(request, newComment)" class="px-5 py-2 border-2 border-gray-800 text-gray-800 rounded-md hover:bg-gray-300 transition-colors duration-200">Add Comment</button>
+      </div>
+
+      <div class="actions flex justify-between">
+        <div class="flex space-x-4">
+          <button (click)="deleteRequest()" class="px-5 py-2 border-2 border-gray-800 text-gray-800 rounded-md hover:bg-gray-300 transition-colors duration-200" *ngIf="isCurrentUserOwner() || authService.currentUser?.admin ">Delete Request</button>
+          <button class="px-5 py-2 border-2 border-gray-800 text-gray-800 rounded-md hover:bg-gray-300 transition-colors duration-200" *ngIf="isCurrentUserOwner() || authService.currentUser?.admin " [routerLink]="['/edit-request', request.id]">Edit Request</button>
+          <button (click)="resubmit(request.id)" class="px-5 py-2 border-2 border-gray-800 text-gray-800 rounded-md hover:bg-gray-300 transition-colors duration-200" *ngIf="isCurrentUserOwner() || authService.currentUser?.admin ">ReSubmit Request</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

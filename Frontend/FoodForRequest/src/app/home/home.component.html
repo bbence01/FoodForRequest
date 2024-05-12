@@ -1,0 +1,142 @@
+<div class="container">
+
+
+  <div class="hero d-flex flex-column justify-content-center align-items-center h-100 bg-dark-purple">
+    <div class="search-container mx-auto w-100 p-2">
+      <input
+      #searchInput
+      class="search-input form-control w-100 border-0 rounded-start p-2"
+      type="text"
+      placeholder="Search for food..."
+    />
+    <button
+      class="search-button btn btn-primary rounded-end"
+      type="button"
+      (click)="onSearch(searchInput.value)"
+    >
+      Search
+    </button>
+    </div>
+    <div class="suggested-searches d-flex justify-content-center align-items-center mt-3 text-sm">
+      <a
+        class="suggested-search ms-2 text-white hover:text-light-purple transition-colors"
+        href="#"
+        (click)="fillSearch('Pizza', $event)"
+      >
+        Pizza
+      </a>
+      <a
+        class="suggested-search ms-2 text-white hover:text-light-purple transition-colors"
+        href="#"
+        (click)="fillSearch('Sushi', $event)"
+      >
+        Sushi
+      </a>
+      <a
+        class="suggested-search ms-2 text-white hover:text-light-purple transition-colors"
+        href="#"
+        (click)="fillSearch('Cake', $event)"
+      >
+        Cake
+      </a>
+    </div>
+  </div>
+
+  <div class="content p-4">
+  </div>
+  <h1>Welcome to Food For Request<br></h1><br>
+  <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</p>
+  <button mat-raised-button color="primary" routerLink="/login">Get Started</button>
+
+  <div class="content">
+    <h2 class="text-center">Available Requests</h2>
+    <div class="request-list">
+      <div class="request-card" *ngFor="let request of displayFoodRequests" [routerLink]="['/request', request.id]" >
+        <img [src]="request.pictureUrl || 'https://via.placeholder.com/300x200'" class="request-image" />
+        <h3>{{ request.name }}</h3>
+        <p>{{ request.description }}</p>
+        <div class="ingredients">
+          <span class="ingredient" *ngFor="let ingredient of request.ingredients">
+            {{ ingredient.name }}
+          </span>
+        </div>
+        <a  [routerLink]="['/request', request.id]" class="btn btn-dark"(click)="redirectIfNotLoggedIn()">View Details</a>
+      </div>
+    </div>
+
+
+  </div>
+
+  <section class="hero d-flex flex-column justify-content-center align-items-center h-100">
+
+
+    <div class="row">
+      <div class="col-12 text-center">
+        <button mat-raised-button color="primary" routerLink="/request-list" >View All Requests</button>
+      </div>
+    </div>
+
+
+
+
+</section>
+
+  <section class="features">
+    <div class="feature">
+      <mat-icon>local_dining</mat-icon>
+      <h3>Feature Title</h3>
+      <p>Feature description goes here.</p>
+    </div>
+    <div class="feature">
+      <mat-icon>delivery_dining</mat-icon>
+      <h3>Feature Title</h3>
+      <p>Feature description goes here.</p>
+    </div>
+    <div class="feature">
+      <mat-icon>payment</mat-icon>
+      <h3>Feature Title</h3>
+      <p>Feature description goes here.</p>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="how-it-works-steps">
+      <p>
+        Weboldal, amely platformot kínál ételek rendeléséhez és azok elkészítéséhez. A felhasználók ételigénylést hozhatnak létre, megadva az összetevőket, a szállítási és fizetési Lehetőségeket és egyéb részleteket. Mások böngészhetik a kérések listáját, kiválaszthatják és az teljesíthetik. Minden felhasználóknak lehetősége van új kérést vagy ajánlatot leadni. A felhasználó majd kiválaszthatják a számára legszimpatikusabb ajánlatot.
+      </p>
+    </div>
+
+    <div class="how-it-works-steps">
+      <p>
+        Mind A, mind B felhasználó értékelheti egymást, és visszajelzést adhat a teljesítési folyamat befejezése után.      </p>
+    </div>
+
+
+  </section>
+
+
+  <section class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-container">
+      <div class="testimonial">
+        <p>"I love this service! It's helped me find so many useful things."</p>
+        <h4>- User 1</h4>
+      </div>
+      <div class="testimonial">
+        <p>"This is a fantastic idea. I've been able to fulfill a lot of my needs through this platform."</p>
+        <h4>- User 2</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Very helpful platform! I would recommend to all my friends."</p>
+        <h4>- User 3</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="call-to-action">
+    <h2>Ready to join?</h2>
+    <p>Sign up now and start creating requests!</p>
+    <button mat-raised-button color="accent" routerLink="/login">Sign Up</button>
+  </section>
+</div>

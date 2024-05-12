@@ -1,0 +1,132 @@
+<body>
+
+
+<div class="container">
+  <h2>Create a New Food Request</h2>
+  <form [formGroup]="requestForm" (ngSubmit)="createRequest()">
+<div class="form-group">
+  <label for="name">Request Name:</label>
+  <input id="name" type="text" class="form-control" formControlName="name" required />
+  <div *ngIf="requestForm.get('name')?.touched">
+    <div *ngIf="requestForm.get('name')?.errors?.['required']" class="error-message">
+      Name is required.
+    </div>
+    <div *ngIf="requestForm.get('name')?.errors?.['maxlength']" class="error-message">
+      Name cannot be longer than 100 characters.
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label for="description">Description:</label>
+  <textarea id="description" class="form-control" formControlName="description" required></textarea>
+  <div *ngIf="requestForm.get('description')?.touched">
+    <div *ngIf="requestForm.get('description')?.errors?.['required']" class="error-message">
+      Description is required.
+    </div>
+    <div *ngIf="requestForm.get('description')?.errors?.['minlength']" class="error-message">
+      Description must be at least 5 characters long.
+    </div>
+    <div *ngIf="requestForm.get('description')?.errors?.['maxlength']" class="error-message">
+      Description cannot be longer than 1000 characters.
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label for="payment">Payment:</label>
+  <input id="payment" type="number" class="form-control" formControlName="payment" required />
+  <div *ngIf="requestForm.get('payment')?.touched">
+    <div *ngIf="requestForm.get('payment')?.errors?.['required']" class="error-message">
+      Payment is required.
+    </div>
+    <div *ngIf="requestForm.get('payment')?.errors?.['min']" class="error-message">
+      Payment must be at least 1.
+    </div>
+    <div *ngIf="requestForm.get('payment')?.errors?.['notANumber']" class="error-message">
+      Payment must be a number.
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label for="deliveryoptions">Delivery Options:</label>
+  <input id="deliveryoptions" type="text" class="form-control" formControlName="deliveryoptions" required />
+  <div *ngIf="requestForm.get('deliveryoptions')?.touched">
+    <div *ngIf="requestForm.get('deliveryoptions')?.errors?.['required']" class="error-message">
+      Delivery options are required.
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label for="pictureURL">Picture URL:</label>
+  <input id="pictureURL" type="text" class="form-control" formControlName="pictureURL" />
+  <div *ngIf="requestForm.get('pictureURL')?.touched">
+    <div *ngIf="requestForm.get('pictureURL')?.errors?.['invalidUrl']" class="error-message">
+      Please enter a valid URL.
+    </div>
+  </div>
+</div>
+
+    <div class="form-group">
+      <label for="ingredients">Ingredients</label>
+      <select multiple class="form-control" id="ingredients" (change)="onSelectIngredient($event)">
+        <option *ngFor="let ingredient of availableIngredients" [value]="ingredient.id">
+          {{ ingredient.name }}
+        </option>
+      </select>
+    </div>
+
+
+
+
+
+    <div class="form-group">
+      <label>Selected Ingredients:</label>
+      <ul>
+        <li *ngFor="let ingredient of requestForm.controls['ingredients'].value">
+          {{ ingredient.name }}
+          <button (click)="removeIngredient(ingredient)">Remove</button>
+        </li>
+      </ul>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary" [disabled]="!requestForm.valid">Create Request</button>
+  </form>
+
+  <div>
+    <h2>Add New Ingredient</h2>
+    <form [formGroup]="ingredientForm" (ngSubmit)="addIngredient()">
+      <div class="form-group">
+        <label for="ingredient-name">Name:</label>
+        <input id="ingredient-name" type="text" class="form-control" formControlName="name" required />
+        <div *ngIf="ingredientForm.get('name')?.touched">
+          <div *ngIf="ingredientForm.get('name')?.errors?.['required']" class="error-message">
+            Ingredient name is required.
+          </div>
+          <div *ngIf="ingredientForm.get('name')?.errors?.['nameNotUnique']" class="error-message">
+            This ingredient name already exists.
+          </div>
+
+        </div>
+        <pre>{{ ingredientForm.controls['name'].errors | json }}</pre>
+
+      </div>
+      <div class="form-group">
+        <label for="ingredient-description">Description:</label>
+        <textarea id="ingredient-description" class="form-control" formControlName="description" required></textarea>
+      </div>
+      <pre>{{ ingredientForm.value | json }}</pre>
+
+
+      <button type="submit" class="btn btn-primary" [disabled]="!ingredientForm.valid">Add Ingredient</button>
+    </form>
+
+
+  </div>
+
+</div>
+
+</body>
