@@ -58,7 +58,7 @@ namespace FoodForRequest.Controllers
 
 
 
-        [Authorize]
+        
 
         // POST api/<WordController>
         [HttpPost]
@@ -78,7 +78,7 @@ namespace FoodForRequest.Controllers
 
         }
 
-        [Authorize]
+        
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOffer(string id)
         {
@@ -113,7 +113,7 @@ namespace FoodForRequest.Controllers
 
 
 
-        [Authorize]
+        
         [HttpGet]
         public IActionResult GetOne(string requestId)
         {
@@ -133,7 +133,7 @@ namespace FoodForRequest.Controllers
             }
         }
 
-        [Authorize]
+        
         [HttpPost]
         public IActionResult Create(OfferViewModel newOffer)
         {

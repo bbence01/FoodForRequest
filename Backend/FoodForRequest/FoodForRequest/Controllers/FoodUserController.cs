@@ -22,7 +22,7 @@ namespace WordQuiz.Controllers
     // [Authorize(Roles = "FoodUser, Admin")]
     [Route("api/[controller]")]
     [ApiController]
-    // [Authorize]
+    // 
     public class FoodUserController : ControllerBase
     {
         IFoodUserRepository fooduserRepository;
@@ -90,7 +90,7 @@ namespace WordQuiz.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        
         public async Task<object> GetFooduser()
         {
             var authHeader = HttpContext.Request.Headers["Authorization"];
@@ -119,7 +119,7 @@ namespace WordQuiz.Controllers
         //}
 
         // PUT api/<PlayerController>/5
-        [Authorize]
+        
 
         [HttpPut("{id}")]
         public async Task<IActionResult> EditFooduser(int id, [FromBody] FoodUser value)
@@ -129,7 +129,7 @@ namespace WordQuiz.Controllers
         }
 
 
-        [Authorize]
+        
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteFooduser(string id)

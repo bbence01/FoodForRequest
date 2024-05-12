@@ -74,7 +74,7 @@ namespace FoodForRequest.Controllers
 
 
         }*/
-        [Authorize]
+        
         [HttpPost("CreateIngredient")]
         public void Post([FromBody] IngredientCreateViewModel value)
         {
@@ -97,7 +97,7 @@ namespace FoodForRequest.Controllers
         }
         */
         // DELETE api/<IngridientController>/5
-        [Authorize]
+        
         [HttpDelete("Delete/{id}")]
         public void Delete(string id)
         {
@@ -105,7 +105,7 @@ namespace FoodForRequest.Controllers
             ingridientRepository.Delete(id);
 
         }
-        [Authorize]
+        
         [HttpPut("{requestId}/addIngredients")]
         public async Task<IActionResult> AddIngredientsToRequest(string requestId, [FromBody] List<Ingredient> ingredients)
         {
@@ -131,7 +131,7 @@ namespace FoodForRequest.Controllers
 
             return NoContent();
         }
-        [Authorize]
+        
         [HttpGet("GetIngredientsForRequest/{id}")]
         public IEnumerable<Ingredient> GetOffersForRequest(string id)
         {

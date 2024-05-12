@@ -75,7 +75,7 @@ namespace FoodForRequest.Controllers
             return rInfos;
         }
 
-        [Authorize]
+        
         [HttpGet("{id}")]
         public FoodRequestViewModel? GetFood(string id)
         {
@@ -103,7 +103,7 @@ namespace FoodForRequest.Controllers
             return rInfos;
         }
 
-        [Authorize]
+        
         [HttpPost("CreateFd")]
         public IActionResult Create([FromBody] FoodrequestCreateViewmodel food /*IFormFile picture*/)
         {
@@ -172,7 +172,7 @@ namespace FoodForRequest.Controllers
         }
 
 
-        [Authorize]
+        
         [HttpPut("{id}")]
         public IActionResult Update(string id, [FromBody] FoodrequestCreateViewmodel food)
         {
@@ -296,7 +296,7 @@ namespace FoodForRequest.Controllers
 
             return Ok(food);
         }*/
-        [Authorize]
+        
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {
@@ -328,7 +328,7 @@ namespace FoodForRequest.Controllers
 
      
 
-        [Authorize]
+        
         [HttpGet("SeeAcceptedOffers")]
         public  IEnumerable<FoodRequestViewModel> SeeAcceptedOffers()
         {
@@ -357,7 +357,7 @@ namespace FoodForRequest.Controllers
         }
 
 
-        [Authorize]
+        
         [HttpGet("SeeOtherAcceptedOffers/{id}")]
 
         public IEnumerable<FoodRequestViewModel> SeeOtherAcceptedOffers(string id)
@@ -385,7 +385,7 @@ namespace FoodForRequest.Controllers
 
             return rInfos;
         }
-        [Authorize]
+        
         [HttpPut("ChooseOffer")]
 
         public async Task<IActionResult> ChooseOffer(string foodId, string offerId)
@@ -419,7 +419,7 @@ namespace FoodForRequest.Controllers
             return Ok();
         }
 
-        [Authorize]
+        
         [HttpPut("CompleteRequest")]
 
         public async Task<IActionResult> CompleteRequest(string id)
@@ -459,7 +459,7 @@ namespace FoodForRequest.Controllers
         }
 
 
-        [Authorize]
+        
         [HttpPut("CancelRequest")]
 
         public async Task<IActionResult> CancelRequest(string id)
@@ -495,7 +495,7 @@ namespace FoodForRequest.Controllers
             return Ok();
         }
 
-        [Authorize]
+        
         [HttpPut("Resubmit")]
 
         public async Task<IActionResult> Resubmit(string id)
