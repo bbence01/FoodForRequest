@@ -620,10 +620,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -639,7 +639,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -3120,10 +3120,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -3139,7 +3139,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -5620,10 +5620,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -5639,7 +5639,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -8120,10 +8120,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -8139,7 +8139,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -10620,10 +10620,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -10639,7 +10639,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -13120,10 +13120,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -13139,7 +13139,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -15620,10 +15620,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -15639,7 +15639,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -18120,10 +18120,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -18139,7 +18139,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -20599,10 +20599,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Essentials.dll": {
@@ -20615,7 +20615,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Graphics.dll": {
@@ -21287,10 +21287,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Essentials.dll": {
@@ -21303,7 +21303,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Graphics.dll": {
@@ -21975,10 +21975,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Essentials.dll": {
@@ -21991,7 +21991,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Graphics.dll": {
@@ -22663,10 +22663,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Essentials.dll": {
@@ -22679,7 +22679,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Graphics.dll": {
@@ -23351,10 +23351,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Essentials.dll": {
@@ -23367,7 +23367,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Graphics.dll": {
@@ -24039,10 +24039,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Essentials.dll": {
@@ -24055,7 +24055,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Graphics.dll": {
@@ -24727,10 +24727,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Essentials.dll": {
@@ -24743,7 +24743,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Graphics.dll": {
@@ -25415,10 +25415,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Essentials.dll": {
@@ -25431,7 +25431,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-ios17.2/Microsoft.Maui.Graphics.dll": {
@@ -26103,10 +26103,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Essentials.dll": {
@@ -26119,7 +26119,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Graphics.dll": {
@@ -26791,10 +26791,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Essentials.dll": {
@@ -26807,7 +26807,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Graphics.dll": {
@@ -27479,10 +27479,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Essentials.dll": {
@@ -27495,7 +27495,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Graphics.dll": {
@@ -28167,10 +28167,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Essentials.dll": {
@@ -28183,7 +28183,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Graphics.dll": {
@@ -28855,10 +28855,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Essentials.dll": {
@@ -28871,7 +28871,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Graphics.dll": {
@@ -29543,10 +29543,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Essentials.dll": {
@@ -29559,7 +29559,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Graphics.dll": {
@@ -30231,10 +30231,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Essentials.dll": {
@@ -30247,7 +30247,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Graphics.dll": {
@@ -30919,10 +30919,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21"
+          "Microsoft.Maui.Graphics": "8.0.40"
         },
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Essentials.dll": {
@@ -30935,7 +30935,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "compile": {
           "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Graphics.dll": {
@@ -31640,10 +31640,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -31657,7 +31657,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -32469,10 +32469,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -32486,7 +32486,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -33272,10 +33272,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -33289,7 +33289,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -34075,10 +34075,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -34092,7 +34092,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -34878,10 +34878,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -34895,7 +34895,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -35681,10 +35681,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -35698,7 +35698,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -36484,10 +36484,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -36501,7 +36501,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -37290,10 +37290,10 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "compile": {
@@ -37307,7 +37307,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
@@ -38753,17 +38753,17 @@
         "microsoft.maui.core.nuspec"
       ]
     },
-    "Microsoft.Maui.Essentials/8.0.21": {
-      "sha512": "qqSc8Q4fOPsGGzvkuOaonjvhskD5XTOAsLg3a5U/9VN8vogG/4mA4SjIlZMWneoOjn2nas58PKBHKibUzUjqQQ==",
+    "Microsoft.Maui.Essentials/8.0.40": {
+      "sha512": "Alnt6o+nzenZ/aBxQrpBnz3PK83av9az01K1+WXnYhN25P5YxUdMMA6FGXqXSTMba3iTMod72+g1c3RqmwgjlQ==",
       "type": "package",
-      "path": "microsoft.maui.essentials/8.0.21",
+      "path": "microsoft.maui.essentials/8.0.40",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "README.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "icon.png",
         "lib/net7.0-android33.0/Microsoft.Maui.Essentials.aar",
         "lib/net7.0-android33.0/Microsoft.Maui.Essentials.dll",
         "lib/net7.0-android33.0/Microsoft.Maui.Essentials.pdb",
@@ -38814,21 +38814,21 @@
         "lib/netstandard2.1/Microsoft.Maui.Essentials.dll",
         "lib/netstandard2.1/Microsoft.Maui.Essentials.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Essentials.xml",
-        "microsoft.maui.essentials.8.0.21.nupkg.sha512",
+        "microsoft.maui.essentials.8.0.40.nupkg.sha512",
         "microsoft.maui.essentials.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics/8.0.21": {
-      "sha512": "aEL7TzdScoUKy+QHnl7llC5DxfdkI/Rv45UnTdIqQUbBkCfHDjG/hjPUCWE0VipRL/qjWMk2phkfHwJmf1Zz7w==",
+    "Microsoft.Maui.Graphics/8.0.40": {
+      "sha512": "QLmEVtH+LxP5Q86CRlQyiwXwk3CB9U7wyo0FES0/JJZvITjH7cuKOwI2rYDbQ68kiBEMCBExWCu9hxkw5cDF2g==",
       "type": "package",
-      "path": "microsoft.maui.graphics/8.0.21",
+      "path": "microsoft.maui.graphics/8.0.40",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "README.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "icon.png",
         "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll",
         "lib/net7.0-android33.0/Microsoft.Maui.Graphics.pdb",
         "lib/net7.0-android33.0/Microsoft.Maui.Graphics.xml",
@@ -38883,7 +38883,7 @@
         "lib/netstandard2.1/Microsoft.Maui.Graphics.dll",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
-        "microsoft.maui.graphics.8.0.21.nupkg.sha512",
+        "microsoft.maui.graphics.8.0.40.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
@@ -42082,6 +42082,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
+      "Microsoft.Maui.Essentials >= 8.0.40",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2"
     ],
     "net8.0-ios17.2": [
@@ -42091,6 +42092,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
+      "Microsoft.Maui.Essentials >= 8.0.40",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2"
     ],
     "net8.0-maccatalyst17.2": [
@@ -42100,6 +42102,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
+      "Microsoft.Maui.Essentials >= 8.0.40",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2"
     ],
     "net8.0-windows10.0.19041": [
@@ -42108,7 +42111,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.5",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
-      "Microsoft.Maui.Controls.Compatibility >= 8.0.21"
+      "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
+      "Microsoft.Maui.Essentials >= 8.0.40"
     ]
   },
   "packageFolders": {
@@ -42201,6 +42205,10 @@
             "target": "Package",
             "version": "[8.0.21, )"
           },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.40, )"
+          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
@@ -42255,6 +42263,10 @@
           "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[8.0.21, )"
+          },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.40, )"
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
@@ -42311,6 +42323,10 @@
             "target": "Package",
             "version": "[8.0.21, )"
           },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.40, )"
+          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
@@ -42366,6 +42382,10 @@
           "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[8.0.21, )"
+          },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.40, )"
           }
         },
         "imports": [

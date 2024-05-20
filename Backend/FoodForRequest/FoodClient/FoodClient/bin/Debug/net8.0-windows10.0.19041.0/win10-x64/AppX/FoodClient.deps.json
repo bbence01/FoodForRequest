@@ -15,6 +15,7 @@
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.21",
           "Microsoft.Maui.Controls.Compatibility": "8.0.21",
+          "Microsoft.Maui.Essentials": "8.0.40",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
         },
         "runtime": {
@@ -455,8 +456,8 @@
           "Microsoft.Extensions.Logging": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "Microsoft.Graphics.Win2D": "1.2.0",
-          "Microsoft.Maui.Essentials": "8.0.21",
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Essentials": "8.0.40",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "8.0.21",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
@@ -468,19 +469,19 @@
           }
         }
       },
-      "Microsoft.Maui.Essentials/8.0.21": {
+      "Microsoft.Maui.Essentials/8.0.40": {
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "runtime": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "8.0.21.0"
+            "fileVersion": "8.0.40.0"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.21": {
+      "Microsoft.Maui.Graphics/8.0.40": {
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
@@ -488,14 +489,14 @@
         "runtime": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "8.0.21.0"
+            "fileVersion": "8.0.40.0"
           }
         }
       },
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/8.0.21": {
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
-          "Microsoft.Maui.Graphics": "8.0.21",
+          "Microsoft.Maui.Graphics": "8.0.40",
           "Microsoft.WindowsAppSDK": "1.5.240311000"
         },
         "runtime": {
@@ -816,19 +817,19 @@
       "path": "microsoft.maui.core/8.0.21",
       "hashPath": "microsoft.maui.core.8.0.21.nupkg.sha512"
     },
-    "Microsoft.Maui.Essentials/8.0.21": {
+    "Microsoft.Maui.Essentials/8.0.40": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qqSc8Q4fOPsGGzvkuOaonjvhskD5XTOAsLg3a5U/9VN8vogG/4mA4SjIlZMWneoOjn2nas58PKBHKibUzUjqQQ==",
-      "path": "microsoft.maui.essentials/8.0.21",
-      "hashPath": "microsoft.maui.essentials.8.0.21.nupkg.sha512"
+      "sha512": "sha512-Alnt6o+nzenZ/aBxQrpBnz3PK83av9az01K1+WXnYhN25P5YxUdMMA6FGXqXSTMba3iTMod72+g1c3RqmwgjlQ==",
+      "path": "microsoft.maui.essentials/8.0.40",
+      "hashPath": "microsoft.maui.essentials.8.0.40.nupkg.sha512"
     },
-    "Microsoft.Maui.Graphics/8.0.21": {
+    "Microsoft.Maui.Graphics/8.0.40": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aEL7TzdScoUKy+QHnl7llC5DxfdkI/Rv45UnTdIqQUbBkCfHDjG/hjPUCWE0VipRL/qjWMk2phkfHwJmf1Zz7w==",
-      "path": "microsoft.maui.graphics/8.0.21",
-      "hashPath": "microsoft.maui.graphics.8.0.21.nupkg.sha512"
+      "sha512": "sha512-QLmEVtH+LxP5Q86CRlQyiwXwk3CB9U7wyo0FES0/JJZvITjH7cuKOwI2rYDbQ68kiBEMCBExWCu9hxkw5cDF2g==",
+      "path": "microsoft.maui.graphics/8.0.40",
+      "hashPath": "microsoft.maui.graphics.8.0.40.nupkg.sha512"
     },
     "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/8.0.21": {
       "type": "package",

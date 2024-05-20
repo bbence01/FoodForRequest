@@ -45,9 +45,14 @@ namespace FoodForRequest.Controllers
             this.hub = hub;
         }
 
+
+        [Authorize]
         [HttpGet("Search")]
         public IEnumerable<FoodRequestViewModel> Search(string query)
         {
+
+            var id = userManager.GetUserId(User);
+
             var requestors = foodrepository.GetAll();
 
             var rInfos = new List<FoodRequestViewModel>();
@@ -84,6 +89,9 @@ namespace FoodForRequest.Controllers
             var foodRequests = foodrepository.GetAll();
             var filteredFoodRequests = new List<FoodRequestViewModel>();
 
+            var uid = userManager.GetUserId(User);
+
+
             foreach (var foodRequest in foodRequests)
             {
                 var requestIngredients = ingredientRepository.GetIngredientsForRequest(foodRequest.Id).Select(i => i.Name).ToList();
@@ -110,6 +118,7 @@ namespace FoodForRequest.Controllers
         [HttpGet("GetAll")]
         public IEnumerable<FoodRequestViewModel> GetAllProduct()
         {
+
             var requestors = foodrepository.GetAll();
 
             var rInfos = new List<FoodRequestViewModel>();
@@ -138,6 +147,9 @@ namespace FoodForRequest.Controllers
         [HttpGet("{id}")]
         public FoodRequestViewModel? GetFood(string id)
         {
+
+            var uid = userManager.GetUserId(User);
+
 
             var rInfos = new FoodRequestViewModel();
             var r = foodrepository.GetOne(id);

@@ -13,7 +13,7 @@ using System.Windows;
 
 namespace FoodClient.Services
 { //Microsoft.AspNet.WebApi.Client
-    public class RestService
+    public class RestService: IRestService
     {
         HttpClient client;
 

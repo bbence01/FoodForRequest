@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-20T20:42:23.555</Modified>
+      <Modified>2024-05-20T22:43:44.286</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-20T19:55:04.966</Modified>
+      <Modified>2024-05-20T21:56:03.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FoodClient.runtimeconfig.json">
       <PackagePath>FoodClient.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-20T20:01:36.781</Modified>
+      <Modified>2024-05-20T21:56:45.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FoodClient.dll">
       <PackagePath>FoodClient.dll</PackagePath>
-      <Modified>2024-05-20T20:42:23.266</Modified>
+      <Modified>2024-05-20T22:43:44.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FoodClient.exe</PackagePath>
-      <Modified>2024-05-20T20:42:23.271</Modified>
+      <Modified>2024-05-20T22:43:44.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-05-20T19:55:01.774</Modified>
+      <Modified>2024-05-20T21:56:01.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-05-20T19:55:01.786</Modified>
+      <Modified>2024-05-20T21:56:01.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-05-20T19:55:01.801</Modified>
+      <Modified>2024-05-20T21:56:01.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-05-20T19:55:01.824</Modified>
+      <Modified>2024-05-20T21:56:01.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.215</Modified>
+      <Modified>2024-05-20T21:56:01.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -83,211 +83,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-05-20T19:55:02.610</Modified>
+      <Modified>2024-05-20T21:56:02.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.952</Modified>
+      <Modified>2024-05-20T21:56:02.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.967</Modified>
+      <Modified>2024-05-20T21:56:02.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.982</Modified>
+      <Modified>2024-05-20T21:56:02.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-05-20T19:55:03.006</Modified>
+      <Modified>2024-05-20T21:56:02.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-05-20T19:55:03.100</Modified>
+      <Modified>2024-05-20T21:56:02.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.694</Modified>
+      <Modified>2024-05-20T21:56:02.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.698</Modified>
+      <Modified>2024-05-20T21:56:02.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.714</Modified>
+      <Modified>2024-05-20T21:56:02.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.702</Modified>
+      <Modified>2024-05-20T21:56:02.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.705</Modified>
+      <Modified>2024-05-20T21:56:02.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.667</Modified>
+      <Modified>2024-05-20T21:56:02.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.671</Modified>
+      <Modified>2024-05-20T21:56:02.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.690</Modified>
+      <Modified>2024-05-20T21:56:02.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.676</Modified>
+      <Modified>2024-05-20T21:56:02.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.680</Modified>
+      <Modified>2024-05-20T21:56:02.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.619</Modified>
+      <Modified>2024-05-20T21:56:02.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.624</Modified>
+      <Modified>2024-05-20T21:56:02.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.628</Modified>
+      <Modified>2024-05-20T21:56:02.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.632</Modified>
+      <Modified>2024-05-20T21:56:02.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.638</Modified>
+      <Modified>2024-05-20T21:56:02.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.641</Modified>
+      <Modified>2024-05-20T21:56:02.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.644</Modified>
+      <Modified>2024-05-20T21:56:02.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.663</Modified>
+      <Modified>2024-05-20T21:56:02.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.648</Modified>
+      <Modified>2024-05-20T21:56:02.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.653</Modified>
+      <Modified>2024-05-20T21:56:02.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.776</Modified>
+      <Modified>2024-05-20T21:56:02.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.783</Modified>
+      <Modified>2024-05-20T21:56:02.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.792</Modified>
+      <Modified>2024-05-20T21:56:02.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.804</Modified>
+      <Modified>2024-05-20T21:56:02.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.827</Modified>
+      <Modified>2024-05-20T21:56:02.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.743</Modified>
+      <Modified>2024-05-20T21:56:02.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.749</Modified>
+      <Modified>2024-05-20T21:56:02.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.754</Modified>
+      <Modified>2024-05-20T21:56:02.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.759</Modified>
+      <Modified>2024-05-20T21:56:02.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.770</Modified>
+      <Modified>2024-05-20T21:56:02.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.718</Modified>
+      <Modified>2024-05-20T21:56:02.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.721</Modified>
+      <Modified>2024-05-20T21:56:02.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.726</Modified>
+      <Modified>2024-05-20T21:56:02.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.731</Modified>
+      <Modified>2024-05-20T21:56:02.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.739</Modified>
+      <Modified>2024-05-20T21:56:02.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.835</Modified>
+      <Modified>2024-05-20T21:56:02.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.845</Modified>
+      <Modified>2024-05-20T21:56:02.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.858</Modified>
+      <Modified>2024-05-20T21:56:02.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.879</Modified>
+      <Modified>2024-05-20T21:56:02.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.931</Modified>
+      <Modified>2024-05-20T21:56:02.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.611</Modified>
+      <Modified>2024-05-20T21:56:02.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.619</Modified>
+      <Modified>2024-05-20T21:56:02.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.629</Modified>
+      <Modified>2024-05-20T21:56:02.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.645</Modified>
+      <Modified>2024-05-20T21:56:02.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-05-20T19:55:02.696</Modified>
+      <Modified>2024-05-20T21:56:02.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FoodClient.deps.json">
       <PackagePath>FoodClient.deps.json</PackagePath>
-      <Modified>2024-05-20T20:01:36.780</Modified>
+      <Modified>2024-05-20T21:56:45.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -401,13 +401,13 @@
       <PackagePath>Microsoft.Maui.dll</PackagePath>
       <Modified>2024-04-18T23:34:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\microsoft.maui.essentials\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
+    <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\microsoft.maui.essentials\8.0.40\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
       <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
-      <Modified>2024-04-18T23:36:22.000</Modified>
+      <Modified>2024-05-13T18:30:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\microsoft.maui.graphics\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
+    <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\microsoft.maui.graphics\8.0.40\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-05-13T18:28:50.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>

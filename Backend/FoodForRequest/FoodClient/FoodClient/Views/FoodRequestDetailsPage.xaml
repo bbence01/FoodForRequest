@@ -10,12 +10,12 @@
                 <!-- Display Image -->
 
                 <VerticalStackLayout  IsVisible="{Binding webimg}" >
-                    <Image IsVisible="{Binding webimg}" Source="{Binding PictureSource}" Aspect="AspectFill" HeightRequest="200"/>
+                    <Image IsVisible="{Binding webimg}" Source="{Binding PictureSource}" Aspect="AspectFill" />
 
 
                 </VerticalStackLayout>
 
-                <Image IsVisible="{Binding Base64}"  Source="{Binding PictureIMG.Source}" Aspect="AspectFill" HeightRequest="200"/>
+                <Image IsVisible="{Binding Base64}"  Source="{Binding PictureIMG.Source}" Aspect="AspectFill" />
 
 
                 <!-- Display Food Request Details -->

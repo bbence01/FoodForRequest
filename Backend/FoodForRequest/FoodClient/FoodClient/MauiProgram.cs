@@ -1,4 +1,5 @@
-﻿using FoodClient.ViewModels;
+﻿using FoodClient.Services;
+using FoodClient.ViewModels;
 using FoodClient.Views;
 using Microsoft.Extensions.Logging;
 
@@ -24,6 +25,12 @@ namespace FoodClient
 #endif
             builder.Services.AddSingleton<MainPageViewModel>();
             builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<IRestService, RestService>();
+            builder.Services.AddTransient<MainPageViewModel>();
+
+            builder.Services.AddTransient<MainPageViewModel>();
+
+          
 
             return builder.Build();
         }

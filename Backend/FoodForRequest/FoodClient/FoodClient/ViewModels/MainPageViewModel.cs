@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using FoodClient.Models;
 using FoodClient.Services;
+using FoodForRequestApp.Services;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 
@@ -63,6 +64,9 @@ namespace FoodClient.ViewModels
         [RelayCommand]
         private async Task LoadFoodRequestsAsync()
         {
+            var client = await AuthService.GetAuthenticatedClientAsync();
+
+
             try
             {
                 IsBusy = true;
