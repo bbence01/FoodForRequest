@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FoodClient
+build_property.ProjectDir = D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodClient/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodClient.App.xaml
+build_metadata.AdditionalFiles.TargetPath = FoodClient\App.xaml
+build_metadata.AdditionalFiles.RelativePath = FoodClient\App.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodClient/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodClient.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = FoodClient\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = FoodClient\AppShell.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodClient/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodClient.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FoodClient\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FoodClient\MainPage.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodClient/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodClient.obj.Debug.net8._0_windows10._0._19041._0.win10_x64.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodClient/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodClient.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = FoodClient\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = FoodClient\Platforms\Windows\App.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodClient/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodClient.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = FoodClient\Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = FoodClient\Resources\Styles\Colors.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodClient/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodClient.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = FoodClient\Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = FoodClient\Resources\Styles\Styles.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodForRequest/obj/Debug/net6.0/scopedcss/bundle/FoodForRequest.styles.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodForRequest.obj.Debug.net6._0.scopedcss.bundle.FoodForRequest.styles.css
+build_metadata.AdditionalFiles.TargetPath = FoodForRequest\obj\Debug\net6.0\scopedcss\bundle\FoodForRequest.styles.css
+build_metadata.AdditionalFiles.RelativePath = FoodForRequest\obj\Debug\net6.0\scopedcss\bundle\FoodForRequest.styles.css
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodForRequest/obj/Debug/net6.0/scopedcss/projectbundle/FoodForRequest.bundle.scp.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodForRequest.obj.Debug.net6._0.scopedcss.projectbundle.FoodForRequest.bundle.scp.css
+build_metadata.AdditionalFiles.TargetPath = FoodForRequest\obj\Debug\net6.0\scopedcss\projectbundle\FoodForRequest.bundle.scp.css
+build_metadata.AdditionalFiles.RelativePath = FoodForRequest\obj\Debug\net6.0\scopedcss\projectbundle\FoodForRequest.bundle.scp.css
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodForRequest/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodForRequest.obj.Debug.net6._0.scopedcss.Views.Shared._Layout.cshtml.rz.scp.css
+build_metadata.AdditionalFiles.TargetPath = FoodForRequest\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+build_metadata.AdditionalFiles.RelativePath = FoodForRequest\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodForRequest/Views/Shared/_Layout.cshtml.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.FoodForRequest.Views.Shared._Layout.cshtml.css
+build_metadata.AdditionalFiles.TargetPath = FoodForRequest\Views\Shared\_Layout.cshtml.css
+build_metadata.AdditionalFiles.RelativePath = FoodForRequest\Views\Shared\_Layout.cshtml.css

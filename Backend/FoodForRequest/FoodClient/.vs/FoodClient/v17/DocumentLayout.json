@@ -1,0 +1,516 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\services\\restcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\services\\restcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\controllers\\foodrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\foodrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\controllers\\ingridientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\ingridientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\models\\foodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\models\\foodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\controllers\\foodusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\foodusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\controllers\\offercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\offercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\models\\requestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\requestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\models\\foodrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\foodrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\models\\fooduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\fooduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\models\\foodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\foodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\services\\signalrhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\services\\signalrhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\foodclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\foodclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodforrequest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{770F642B-41E4-4651-8FFC-4EDBC6CA3370}|FoodForRequest\\FoodForRequest.csproj|solutionrelative:foodforrequest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|d:\\egyetem\\6.felev\\maui\\foodforrequest\\kf\\kf\\backend\\foodforrequest\\foodclient\\foodclient\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDDEE921-57CA-42F5-8930-438BE35423E8}|FoodClient\\FoodClient.csproj|solutionrelative:foodclient\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "FoodClient\\ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "FoodClient\\ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AQIAANEAAAAAAAAAAAAAAOwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T18:07:35.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\ErrorModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\ErrorModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\ErrorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:26:31.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FoodRequest.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\FoodRequest.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\FoodRequest.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\FoodRequest.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\FoodRequest.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAkwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:18:01.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RequestViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\RequestViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\RequestViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\RequestViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\RequestViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:59:17.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "FoodClient\\Views\\MainPage.xaml",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Views\\MainPage.xaml",
+              "RelativeToolTip": "FoodClient\\Views\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T18:16:25.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FoodUserController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\FoodUserController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\FoodUserController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\FoodUserController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\FoodUserController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:49:22.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FoodRequest.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Models\\FoodRequest.cs",
+              "RelativeDocumentMoniker": "FoodClient\\Models\\FoodRequest.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Models\\FoodRequest.cs",
+              "RelativeToolTip": "FoodClient\\Models\\FoodRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:08:19.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "FoodClient\\Views\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "FoodClient\\Views\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:17:38.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodrequestController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\FoodrequestController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\FoodrequestController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\FoodrequestController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\FoodrequestController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:52:54.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RestCollection.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Services\\RestCollection.cs",
+              "RelativeDocumentMoniker": "FoodClient\\Services\\RestCollection.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Services\\RestCollection.cs",
+              "RelativeToolTip": "FoodClient\\Services\\RestCollection.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAADgv3oAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:14:07.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\CommentController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:49:19.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Models\\Ingredient.cs",
+              "RelativeDocumentMoniker": "FoodClient\\Models\\Ingredient.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Models\\Ingredient.cs",
+              "RelativeToolTip": "FoodClient\\Models\\Ingredient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:08:41.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IngridientController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\IngridientController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\IngridientController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\IngridientController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\IngridientController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAuwD0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:39:39.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OfferController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\OfferController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\OfferController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\OfferController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\OfferController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:48:51.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FoodRequestViewModel.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\FoodRequestViewModel.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\FoodRequestViewModel.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\FoodRequestViewModel.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\FoodRequestViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:44:16.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\Comment.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\Comment.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:49:10.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "FoodClient\\MauiProgram.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\MauiProgram.cs",
+              "RelativeToolTip": "FoodClient\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:44:52.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FoodUser.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\FoodUser.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Models\\FoodUser.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Models\\FoodUser.cs",
+              "RelativeToolTip": "FoodForRequest\\Models\\FoodUser.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:18:28.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:49:18.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\AppShell.xaml",
+              "RelativeDocumentMoniker": "FoodClient\\AppShell.xaml",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\AppShell.xaml",
+              "RelativeToolTip": "FoodClient\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T18:18:29.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "FoodClient\\AppShell.xaml.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\AppShell.xaml.cs",
+              "RelativeToolTip": "FoodClient\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:18:25.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FoodForRequest\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:52:54.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\App.xaml.cs",
+              "RelativeDocumentMoniker": "FoodClient\\App.xaml.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\App.xaml.cs",
+              "RelativeToolTip": "FoodClient\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:18:16.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SignalRHub.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Services\\SignalRHub.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Services\\SignalRHub.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Services\\SignalRHub.cs",
+              "RelativeToolTip": "FoodForRequest\\Services\\SignalRHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:53:42.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Program.cs",
+              "RelativeDocumentMoniker": "FoodForRequest\\Program.cs",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\Program.cs",
+              "RelativeToolTip": "FoodForRequest\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:44:55.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\App.xaml",
+              "RelativeDocumentMoniker": "FoodClient\\App.xaml",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\App.xaml",
+              "RelativeToolTip": "FoodClient\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T18:23:38.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\appsettings.json",
+              "RelativeDocumentMoniker": "FoodForRequest\\appsettings.json",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodForRequest\\appsettings.json",
+              "RelativeToolTip": "FoodForRequest\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T18:19:24.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FoodClient.csproj",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\FoodClient.csproj",
+              "RelativeDocumentMoniker": "FoodClient\\FoodClient.csproj",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\FoodClient.csproj",
+              "RelativeToolTip": "FoodClient\\FoodClient.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-19T18:13:57.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "FoodClient\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "FoodClient\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-05-19T17:34:07.941Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

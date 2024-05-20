@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FoodClient</name>
+    </assembly>
+    <members>
+        <member name="T:FoodClient.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.FoodRequests">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.foodRequests"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.SelectedFoodRequest">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.selectedFoodRequest"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.IsBusy">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.isBusy"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.ErrorMessage">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.errorMessage"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.SearchQuery">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.searchQuery"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.FilterQuery">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.filterQuery"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.AllIngredients">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.allIngredients"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.SelectedIngredients">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.selectedIngredients"/>
+        </member>
+        <member name="F:FoodClient.ViewModels.MainPageViewModel.loadFoodRequestsCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.LoadFoodRequestsCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.LoadFoodRequestsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.LoadFoodRequestsAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.MainPageViewModel.filterFoodRequestsCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.FilterFoodRequestsCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.FilterFoodRequestsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.FilterFoodRequestsAsync"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FoodRequests">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FoodRequests" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedFoodRequest">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedFoodRequest" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ErrorMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SearchQuery">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SearchQuery" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FilterQuery">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FilterQuery" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AllIngredients">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AllIngredients" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedIngredients">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedIngredients" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FoodRequests">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FoodRequests" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedFoodRequest">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedFoodRequest" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ErrorMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SearchQuery">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SearchQuery" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FilterQuery">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FilterQuery" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AllIngredients">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AllIngredients" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedIngredients">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedIngredients" generated properties.</summary>
+        </member>
+    </members>
+</doc>

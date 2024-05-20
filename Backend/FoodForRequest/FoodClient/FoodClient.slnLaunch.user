@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "FoodForRequest\\FoodForRequest.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "FoodClient\\FoodClient.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      }
+    ]
+  }
+]
