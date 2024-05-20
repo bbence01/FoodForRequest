@@ -4,6 +4,33 @@
         <name>FoodClient</name>
     </assembly>
     <members>
+        <member name="T:FoodClient.ViewModels.FoodRequestDetailsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.FoodRequest">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.foodRequest"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.Ingredients">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.ingredients"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.Offers">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.offers"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.Comments">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.comments"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.PictureSource">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.pictureSource"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.PictureIMG">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.pictureIMG"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.Base64">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.base64"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.Webimg">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.webimg"/>
+        </member>
         <member name="T:FoodClient.ViewModels.MainPageViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -51,6 +78,30 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FoodRequest">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FoodRequest" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Ingredients">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Ingredients" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Offers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Offers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Comments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Comments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PictureSource">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PictureSource" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PictureIMG">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PictureIMG" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Base64">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Base64" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Webimg">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Webimg" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FoodRequests">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FoodRequests" generated properties.</summary>
         </member>
@@ -80,6 +131,30 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FoodRequest">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FoodRequest" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Ingredients">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Ingredients" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Offers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Offers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Comments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Comments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PictureSource">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PictureSource" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PictureIMG">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PictureIMG" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Base64">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Base64" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Webimg">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Webimg" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FoodRequests">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FoodRequests" generated properties.</summary>

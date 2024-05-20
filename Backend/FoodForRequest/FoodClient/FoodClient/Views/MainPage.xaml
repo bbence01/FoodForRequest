@@ -6,13 +6,10 @@
 
     <ContentPage.Content>
         <StackLayout Padding="10" Spacing="20">
-            <!-- Search by name -->
             <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
             <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" />
 
-            <!-- Load Ingredients and Filter section -->
             <StackLayout Orientation="Horizontal" Spacing="20">
-                <!-- All Ingredients -->
                 <StackLayout>
                     <Button Text="Load Ingredients" Command="{Binding LoadAllIngredientsCommand}" />
                     <Label Text="All Ingredients:" FontAttributes="Bold"/>
@@ -30,7 +27,6 @@
                     </CollectionView>
                 </StackLayout>
 
-                <!-- Selected Ingredients -->
                 <StackLayout>
                     <Label Text="Selected Ingredients:" FontAttributes="Bold"/>
                     <CollectionView ItemsSource="{Binding SelectedIngredients}" SelectionMode="Single" HeightRequest="200">
@@ -48,11 +44,9 @@
                 </StackLayout>
             </StackLayout>
 
-            <!-- Filter button -->
             <Button Text="Filter" Command="{Binding FilterFoodRequestsCommand}" />
 
-            <!-- Display Food Requests -->
-            <CollectionView ItemsSource="{Binding FoodRequests}" SelectionMode="Single">
+            <CollectionView ItemsSource="{Binding FoodRequests}" SelectionMode="Single" SelectionChanged="OnSelectionChanged">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Border Margin="5" Padding="5">
@@ -65,7 +59,6 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <!-- Loading indicator and error message -->
             <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}"/>
             <Label Text="{Binding ErrorMessage}" TextColor="Red" />
         </StackLayout>

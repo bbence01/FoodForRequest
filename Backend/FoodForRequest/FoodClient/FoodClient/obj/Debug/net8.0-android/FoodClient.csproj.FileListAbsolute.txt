@@ -2141,3 +2141,13 @@ D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\F
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.Bson.pdb
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.dll
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\System.Net.Http.Formatting.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.EntityFrameworkCore.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Caching.Memory.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Identity.Core.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Identity.Stores.dll

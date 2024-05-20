@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodClient.Views.FoodRequestDetailsPage"
+             Title="Food Request Details">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" Spacing="10">
+                <!-- Display Image -->
+
+                <VerticalStackLayout  IsVisible="{Binding webimg}" >
+                    <Image IsVisible="{Binding webimg}" Source="{Binding PictureSource}" Aspect="AspectFill" HeightRequest="200"/>
+
+
+                </VerticalStackLayout>
+
+                <Image IsVisible="{Binding Base64}"  Source="{Binding PictureIMG.Source}" Aspect="AspectFill" HeightRequest="200"/>
+
+
+                <!-- Display Food Request Details -->
+                <Label Text="Name:" FontAttributes="Bold"/>
+                <Label Text="{Binding FoodRequest.Name}"/>
+
+                <Label Text="Description:" FontAttributes="Bold"/>
+                <Label Text="{Binding FoodRequest.Description}"/>
+
+                <Label Text="Payment:" FontAttributes="Bold"/>
+                <Label Text="{Binding FoodRequest.Payment}"/>
+
+                <Label Text="Status:" FontAttributes="Bold"/>
+                <Label Text="{Binding FoodRequest.Status}"/>
+
+                <Label Text="Delivery Options:" FontAttributes="Bold"/>
+                <Label Text="{Binding FoodRequest.Deliveryoptions}"/>
+
+                <!-- Display Related Ingredients -->
+                <Label Text="Ingredients:" FontAttributes="Bold"/>
+                <CollectionView ItemsSource="{Binding Ingredients}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding Name}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <!-- Display Related Offers -->
+                <Label Text="Offers:" FontAttributes="Bold"/>
+                <CollectionView ItemsSource="{Binding Offers}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding Description}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <!-- Display Related Comments -->
+                <Label Text="Comments:" FontAttributes="Bold"/>
+                <CollectionView ItemsSource="{Binding Comments}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding Text}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
