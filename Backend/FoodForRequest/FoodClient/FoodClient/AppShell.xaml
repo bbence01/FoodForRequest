@@ -29,4 +29,7 @@
           ContentTemplate="{DataTemplate local:LogoutPage}"
           Route="Logout" />
 
+    <ShellContent Route="FoodRequestDetailsPage" ContentTemplate="{DataTemplate local:FoodRequestDetailsPage}" />
+    <ShellContent Route="FoodRequestUpdatePage" ContentTemplate="{DataTemplate local:FoodRequestUpdatePage}" />
+
 </Shell>

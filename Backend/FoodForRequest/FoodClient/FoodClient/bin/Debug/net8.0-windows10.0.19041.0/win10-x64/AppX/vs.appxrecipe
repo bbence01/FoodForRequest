@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-21T11:53:00.803</Modified>
+      <Modified>2024-05-21T14:34:54.272</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-21T11:26:02.298</Modified>
+      <Modified>2024-05-21T13:07:46.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FoodClient.runtimeconfig.json">
       <PackagePath>FoodClient.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FoodClient.dll">
       <PackagePath>FoodClient.dll</PackagePath>
-      <Modified>2024-05-21T11:53:00.458</Modified>
+      <Modified>2024-05-21T14:34:53.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FoodClient.exe</PackagePath>
-      <Modified>2024-05-21T11:53:00.461</Modified>
+      <Modified>2024-05-21T14:34:53.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FoodClient.deps.json">
       <PackagePath>FoodClient.deps.json</PackagePath>
-      <Modified>2024-05-21T11:26:02.228</Modified>
+      <Modified>2024-05-21T13:07:46.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -243,46 +243,33 @@ namespace FoodForRequest.Controllers
         }
 
 
-        
+
         [HttpPut("{id}")]
         public IActionResult Update(string id, [FromBody] FoodrequestCreateViewmodel food)
         {
-
-
             if (ModelState.IsValid)
             {
-
                 FoodRequest f = foodrepository.GetOne(id); // Retrieve existing food request
-
-               
-
-
-                    if (f == null)
+                if (f == null)
                 {
                     return NotFound(); // No food request with this id
                 }
 
-                if (userManager.GetUserId(User) == f.RequestorId)
-
+               // if (userManager.GetUserId(User) == f.RequestorId)
                 {
-
                     // Update properties
                     f.Name = food.Name;
                     f.Description = food.Description;
                     f.Payment = food.Payment;
                     f.Deliveryoptions = food.Deliveryoptions;
-                    f.RequestorId = userManager.GetUserId(User);
+                   
                     f.PictureURL = food.PictureURL;
 
                     // Update the ingredients
-                    // This is a simple way and might not work in all scenarios
-                    // You would need to check for added/removed ingredients
-
                     var ingredients = ingredientRepository.GetAll();
-
                     foreach (var item in ingredients)
                     {
-                        if (item.FoodId == f.Id )
+                        if (item.FoodId == f.Id)
                         {
                             item.FoodId = null;
                         }
@@ -291,24 +278,25 @@ namespace FoodForRequest.Controllers
                     foreach (var item in food.Ingredients)
                     {
                         Ingredient i = ingredientRepository.GetOne(item);
+                        if (i== null)
+                        {
+                            i =
+                                 new Ingredient
+                                 {
+                                     Name = item,
+                                     Description = item,
+                                     FoodId = id
+                                 };
+                                
+                        }
 
-
-                        Ingredient newi = new Ingredient();
-                        newi.Name = i.Name;
-                        newi.Description = i.Name;
-
-                        var foodlist = foodrepository.GetAll();
-
-                        newi.FoodId = id;
-
-
-
-
-
+                        Ingredient newi = new Ingredient
+                        {
+                            Name = i.Name,
+                            Description = i.Description,
+                            FoodId = id
+                        };
                         ingredientRepository.Create(newi);
-
-
-
                     }
 
                     // Save updated request back to the repository
@@ -316,21 +304,10 @@ namespace FoodForRequest.Controllers
                     this.hub.Clients.All.SendAsync("FoodRequestUpdate", f);
 
                     return Ok();
-
-
-
                 }
-
-
-
             }
 
             return BadRequest(ModelState); // Model was not valid
-
-
-
-
-
         }
 
 
@@ -367,7 +344,7 @@ namespace FoodForRequest.Controllers
 
             return Ok(food);
         }*/
-        
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {

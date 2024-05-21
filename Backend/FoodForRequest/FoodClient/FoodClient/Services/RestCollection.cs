@@ -287,6 +287,31 @@ namespace FoodClient.Services
             response.EnsureSuccessStatusCode();
         }
 
+        public async Task PutAsync<T>(string endpoint, T item, CancellationToken token = default)
+        {
+            try
+            {
+                var response = await client.PutAsJsonAsync(endpoint, item );
+                response.EnsureSuccessStatusCode();
+            }
+            catch (HttpRequestException httpEx)
+            {
+                Console.WriteLine($"HTTP Request Exception: {httpEx.Message}");
+                throw;
+            }
+            catch (TaskCanceledException)
+            {
+                Console.WriteLine("Task was canceled.");
+                throw new OperationCanceledException();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"General Exception: {ex.Message}");
+                throw;
+            }
+        }
+
+
     }
     public class RestExceptionInfo
     {

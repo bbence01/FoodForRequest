@@ -4,6 +4,7 @@ using FoodClient.Services;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.IO;
+using CommunityToolkit.Mvvm.Input;
 
 namespace FoodClient.ViewModels
 {
@@ -14,7 +15,12 @@ namespace FoodClient.ViewModels
         public FoodRequestDetailsViewModel(RestService restService)
         {
             _restService = restService;
+           
         }
+
+        
+
+        
 
         [ObservableProperty]
         private FoodRequest foodRequest;
@@ -75,6 +81,17 @@ namespace FoodClient.ViewModels
                 base64 = false;
                 webimg = true;
             }
+        }
+
+       
+
+        [RelayCommand]
+        private async Task NavigateToUpdateAsync()
+        {
+            var updateViewModel = new FoodRequestUpdateViewModel(_restService);
+            await updateViewModel.LoadFoodRequestAsync(FoodRequest.Id);
+            var updatePage = new Views.FoodRequestUpdatePage { BindingContext = updateViewModel };
+            await Shell.Current.Navigation.PushAsync(updatePage);
         }
 
 

@@ -7,7 +7,6 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="10" Spacing="10">
-                <!-- Display Image -->
 
                 <VerticalStackLayout  IsVisible="{Binding webimg}" >
                     <Image IsVisible="{Binding webimg}" Source="{Binding PictureSource}" Aspect="AspectFill" />
@@ -18,7 +17,6 @@
                 <Image IsVisible="{Binding Base64}"  Source="{Binding PictureIMG.Source}" Aspect="AspectFill" />
 
 
-                <!-- Display Food Request Details -->
                 <Label Text="Name:" FontAttributes="Bold"/>
                 <Label Text="{Binding FoodRequest.Name}"/>
 
@@ -34,7 +32,6 @@
                 <Label Text="Delivery Options:" FontAttributes="Bold"/>
                 <Label Text="{Binding FoodRequest.Deliveryoptions}"/>
 
-                <!-- Display Related Ingredients -->
                 <Label Text="Ingredients:" FontAttributes="Bold"/>
                 <CollectionView ItemsSource="{Binding Ingredients}">
                     <CollectionView.ItemTemplate>
@@ -44,7 +41,6 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
 
-                <!-- Display Related Offers -->
                 <Label Text="Offers:" FontAttributes="Bold"/>
                 <CollectionView ItemsSource="{Binding Offers}">
                     <CollectionView.ItemTemplate>
@@ -54,7 +50,6 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
 
-                <!-- Display Related Comments -->
                 <Label Text="Comments:" FontAttributes="Bold"/>
                 <CollectionView ItemsSource="{Binding Comments}">
                     <CollectionView.ItemTemplate>
@@ -63,6 +58,9 @@
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
+
+                <Button Text="Update" Command="{Binding NavigateToUpdateCommand}"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
