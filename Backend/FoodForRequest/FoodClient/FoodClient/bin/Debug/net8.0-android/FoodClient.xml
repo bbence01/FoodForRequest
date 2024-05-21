@@ -35,6 +35,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:FoodClient.ViewModels.MainPageViewModel.FoodRequests">
             <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.foodRequests"/>
@@ -60,6 +61,12 @@
         <member name="P:FoodClient.ViewModels.MainPageViewModel.SelectedIngredients">
             <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.selectedIngredients"/>
         </member>
+        <member name="F:FoodClient.ViewModels.MainPageViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.Logout"/>.</summary>
+        </member>
         <member name="F:FoodClient.ViewModels.MainPageViewModel.loadFoodRequestsCommand">
             <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.LoadFoodRequestsCommand"/>.</summary>
         </member>
@@ -71,6 +78,15 @@
         </member>
         <member name="P:FoodClient.ViewModels.MainPageViewModel.FilterFoodRequestsCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.FilterFoodRequestsAsync"/>.</summary>
+        </member>
+        <member name="T:FoodClient.Views.LogoutPage">
+            <inheritdoc/>
+        </member>
+        <member name="F:FoodClient.Views.LogoutPage.logoutCommand">
+            <summary>The backing field for <see cref="P:FoodClient.Views.LogoutPage.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.Views.LogoutPage.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.Views.LogoutPage.Logout"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>

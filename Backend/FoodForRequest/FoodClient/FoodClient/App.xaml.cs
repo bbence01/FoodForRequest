@@ -1,8 +1,8 @@
 ﻿using FoodClient.ViewModels;
 using FoodClient.Views;
-using Microsoft.Maui.Storage;
 using Microsoft.Maui.Controls;
-
+using Microsoft.Maui.Storage;
+using System.Threading.Tasks;
 
 namespace FoodClient
 {
@@ -15,20 +15,29 @@ namespace FoodClient
             InitializeComponent();
             Services = services;
 
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new AppShell();
         }
 
         protected override async void OnStart()
         {
-           /* var authToken = await SecureStorage.GetAsync("AuthToken");
+            await CheckAuthenticationStatusAsync();
+        }
+
+        private async Task CheckAuthenticationStatusAsync()
+        {
+            var authToken = await SecureStorage.GetAsync("AuthToken");
             if (!string.IsNullOrEmpty(authToken))
             {
                 var mainPageViewModel = Services.GetService<MainPageViewModel>();
-                MainPage = new NavigationPage(new MainPage(mainPageViewModel));
+                var mainPage = new MainPage(mainPageViewModel);
+                await Shell.Current.GoToAsync("main");
+
             }
-            else*/
+            else
             {
-                MainPage = new NavigationPage(new LoginPage());
+                //await Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
+                await Shell.Current.GoToAsync("login");
+
             }
         }
     }

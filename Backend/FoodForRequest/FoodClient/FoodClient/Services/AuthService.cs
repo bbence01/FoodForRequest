@@ -34,6 +34,16 @@ namespace FoodForRequestApp.Services
             return null;
         }
 
+        public static async Task LogoutAsync()
+        {
+            var client = await GetAuthenticatedClientAsync();
+            var rsult = await client.PostAsync("http://localhost:5274/Auth/logout", null);
+
+            
+
+        }
+
+
         public static async Task<HttpClient> GetAuthenticatedClientAsync()
         {
             var token = await SecureStorage.GetAsync("AuthToken");

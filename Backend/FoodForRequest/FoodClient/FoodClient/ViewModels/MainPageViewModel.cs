@@ -62,6 +62,26 @@ namespace FoodClient.ViewModels
         public IAsyncRelayCommand<string> SearchFoodRequestsCommand { get; }
 
         [RelayCommand]
+        private async Task Logout()
+        {
+            try
+            {
+                await AuthService.LogoutAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during logout: {ex.Message}");
+            }
+            finally
+            {
+                SecureStorage.Remove("AuthToken");
+                SecureStorage.Remove("UserId");
+
+                await Shell.Current.GoToAsync("LoginPage");
+            }
+        }
+
+        [RelayCommand]
         private async Task LoadFoodRequestsAsync()
         {
             var client = await AuthService.GetAuthenticatedClientAsync();

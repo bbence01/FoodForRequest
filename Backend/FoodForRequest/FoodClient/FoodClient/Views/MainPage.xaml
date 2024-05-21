@@ -5,6 +5,7 @@
              x:Class="FoodClient.Views.MainPage">
 
     <ContentPage.Content>
+
         <StackLayout Padding="10" Spacing="20">
             <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
             <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" />

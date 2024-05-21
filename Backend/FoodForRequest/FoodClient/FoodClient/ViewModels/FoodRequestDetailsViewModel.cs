@@ -76,5 +76,7 @@ namespace FoodClient.ViewModels
                 webimg = true;
             }
         }
+
+
     }
 }
