@@ -2,12 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FoodClient.Views.FoodRequestUpdatePage"
+             x:Name="UpdatePage"
              Title="Update Food Request">
 
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="10" Spacing="10">
-                <!-- Update Form -->
                 <Label Text="Name:" FontAttributes="Bold"/>
                 <Entry Text="{Binding FoodRequest.Name}"/>
 
@@ -22,15 +22,16 @@
 
                 <Label Text="Picture URL:" FontAttributes="Bold"/>
                 <Entry Text="{Binding FoodRequest.PictureURL}"/>
+                <Button Text="Select Image" Command="{Binding SelectImageCommand}"/>
 
-                <!-- Ingredients Management -->
+
                 <Label Text="Ingredients:" FontAttributes="Bold"/>
                 <CollectionView ItemsSource="{Binding Ingredients}">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
-                                <Label Text="{Binding .}" VerticalOptions="Center"/>
-                                <Button Text="Remove" Command="{Binding BindingContext.RemoveIngredientCommand, Source={x:Reference UpdatePage}}" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                                <Label Text="{Binding Name}" VerticalOptions="Center"/>
+                                <Button Text="Remove" Command="{Binding BindingContext.RemoveIngredientCommand, Source={x:Reference UpdatePage}}" CommandParameter="{Binding Name}" HorizontalOptions="End"/>
                             </StackLayout>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
@@ -39,8 +40,9 @@
                 <Entry Placeholder="Add new ingredient" Text="{Binding NewIngredient}"/>
                 <Button Text="Add Ingredient" Command="{Binding AddIngredientCommand}"/>
 
-                <!-- Save Button -->
                 <Button Text="Save" Command="{Binding SaveCommand}"/>
+                <Button Text="Cancel" Command="{Binding CancelCommand}"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

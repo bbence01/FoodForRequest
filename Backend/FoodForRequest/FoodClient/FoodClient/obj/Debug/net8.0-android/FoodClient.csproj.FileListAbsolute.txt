@@ -2124,7 +2124,6 @@ D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\F
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Caching.Memory.dll
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Identity.Core.dll
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Identity.Stores.dll
-D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.ll
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\typemaps.x86.ll
@@ -2152,3 +2151,8 @@ D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\F
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\app_shared_libraries\x86\libxamarin-app.so
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.Abstractions.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.Logging.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\Microsoft.IdentityModel.Tokens.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-android\android\assets\System.IdentityModel.Tokens.Jwt.dll

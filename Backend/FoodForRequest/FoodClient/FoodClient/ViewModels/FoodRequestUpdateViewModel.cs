@@ -82,16 +82,56 @@ namespace FoodClient.ViewModels
                     Ingredients = ingredientNames
                 };
 
-                // await _restService.PutAsync($"foodrequest/{FoodRequest.Id}", foodRequestUpdate);
-                await _restService.PutAsync<FoodrequestCreateViewmodel>(foodRequestUpdate, $"foodrequest/{FoodRequest.Id}");
-
-                await Shell.Current.GoToAsync("main");
+                await _restService.PutAsync($"foodrequest/{FoodRequest.Id}", foodRequestUpdate);
+                await Shell.Current.GoToAsync("..");
             }
             catch (Exception ex)
             {
-                // Handle error (e.g., show an error message)
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
+
+
+        [RelayCommand]
+        private async Task SelectImageAsync()
+        {
+            try
+            {
+                var result = await FilePicker.PickAsync(new PickOptions
+                {
+                    FileTypes = FilePickerFileType.Images,
+                    PickerTitle = "Select an image"
+                });
+
+                if (result != null)
+                {
+                    using (var stream = await result.OpenReadAsync())
+                    {
+                        using (var memoryStream = new MemoryStream())
+                        {
+                            await stream.CopyToAsync(memoryStream);
+                            var imageBytes = memoryStream.ToArray();
+                            FoodRequest.PictureURL = $"data:image/jpeg;base64,{Convert.ToBase64String(imageBytes)}";
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+
+        [RelayCommand]
+        private async Task CancleAsync()
+        {
+            await Shell.Current.GoToAsync("..");
+
+        }
+
+
+
+
     }
 }

@@ -23,7 +23,7 @@ namespace FoodClient.ViewModels
         
 
         [ObservableProperty]
-        private FoodRequest foodRequest;
+        public FoodRequest foodRequest;
 
         [ObservableProperty]
         private ObservableCollection<Ingredient> ingredients;

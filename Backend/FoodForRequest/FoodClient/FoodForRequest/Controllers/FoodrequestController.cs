@@ -203,10 +203,23 @@ namespace FoodForRequest.Controllers
                 FoodRequest newr = this.foodrepository.Create(f);
 
 
+              
 
                 foreach (var item in food.Ingredients)
                 {
                     Ingredient i = ingredientRepository.GetOne(item);
+
+                    if (i == null)
+                    {
+                        i =
+                             new Ingredient
+                             {
+                                 Name = item,
+                                 Description = item,
+                              
+                             };
+
+                    }
 
 
                     Ingredient newi = new Ingredient();

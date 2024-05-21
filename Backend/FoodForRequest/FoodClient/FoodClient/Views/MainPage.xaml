@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FoodClient.Views"
              x:Class="FoodClient.Views.MainPage">
+   
 
-    <ContentPage.Content>
+        <ContentPage.Content>
+        <ScrollView>
 
-        <StackLayout Padding="10" Spacing="20">
+            <StackLayout Padding="10" Spacing="20">
             <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
             <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" />
 
@@ -46,22 +48,27 @@
             </StackLayout>
 
             <Button Text="Filter" Command="{Binding FilterFoodRequestsCommand}" />
+                <CollectionView ItemsSource="{Binding FoodRequests}" SelectionMode="Single" SelectionChanged="OnSelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Border Margin="5" Padding="5">
+                                <StackLayout>
+                                    <Label Text="{Binding Name}" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Description}" />
+                                </StackLayout>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Button Text="Create New Food Request" Command="{Binding NavigateToCreateCommand}"/>
 
-            <CollectionView ItemsSource="{Binding FoodRequests}" SelectionMode="Single" SelectionChanged="OnSelectionChanged">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Border Margin="5" Padding="5">
-                            <StackLayout>
-                                <Label Text="{Binding Name}" FontAttributes="Bold"/>
-                                <Label Text="{Binding Description}" />
-                            </StackLayout>
-                        </Border>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
 
             <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}"/>
             <Label Text="{Binding ErrorMessage}" TextColor="Red" />
         </StackLayout>
+            </ScrollView>
+
     </ContentPage.Content>
+
+
 </ContentPage>

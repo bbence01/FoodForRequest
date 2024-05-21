@@ -31,5 +31,6 @@
 
     <ShellContent Route="FoodRequestDetailsPage" ContentTemplate="{DataTemplate local:FoodRequestDetailsPage}" />
     <ShellContent Route="FoodRequestUpdatePage" ContentTemplate="{DataTemplate local:FoodRequestUpdatePage}" />
+    <ShellContent Route="FoodRequestCreatePage" ContentTemplate="{DataTemplate local:FoodRequestCreatePage}" />
 
 </Shell>

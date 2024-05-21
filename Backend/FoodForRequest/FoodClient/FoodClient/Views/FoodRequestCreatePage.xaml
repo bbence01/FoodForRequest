@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodClient.Views.FoodRequestCreatePage"
+             x:Name="CreatePage"
+             Title="Create Food Request">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" Spacing="10">
+                <!-- Create Form -->
+                <Label Text="Name:" FontAttributes="Bold"/>
+                <Entry Text="{Binding Name}"/>
+
+                <Label Text="Description:" FontAttributes="Bold"/>
+                <Entry Text="{Binding Description}"/>
+
+                <Label Text="Payment:" FontAttributes="Bold"/>
+                <Entry Text="{Binding Payment}" Keyboard="Numeric"/>
+
+                <Label Text="Delivery Options:" FontAttributes="Bold"/>
+                <Entry Text="{Binding DeliveryOptions}"/>
+
+                <Label Text="Picture URL:" FontAttributes="Bold"/>
+                <Entry Text="{Binding PictureURL}"/>
+                <Button Text="Select Image" Command="{Binding SelectImageCommand}"/>
+
+                <!-- Ingredients Management -->
+                <Label Text="Ingredients:" FontAttributes="Bold"/>
+                <CollectionView ItemsSource="{Binding Ingredients}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
+                                <Label Text="{Binding .}" VerticalOptions="Center"/>
+                                <Button Text="Remove" Command="{Binding BindingContext.RemoveIngredientCommand, Source={x:Reference CreatePage}}" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <Entry Placeholder="Add new ingredient" Text="{Binding NewIngredient}"/>
+                <Button Text="Add Ingredient" Command="{Binding AddIngredientCommand}"/>
+
+                <!-- Save Button -->
+                <Button Text="Save" Command="{Binding SaveCommand}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

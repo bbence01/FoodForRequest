@@ -41,23 +41,32 @@ namespace FoodClient.Services
             }
         }
 
-        private void Init(string baseurl)
+        private async Task Init(string baseurl)
         {
             client = new HttpClient();
             client.BaseAddress = new Uri(baseurl);
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
-                new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue
-                ("application/json"));
-            try
+                new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+
+            // Retrieve the token from secure storage
+            var token = await SecureStorage.GetAsync("AuthToken");
+            if (!string.IsNullOrEmpty(token))
             {
-                client.GetAsync("").GetAwaiter().GetResult();
-            }
-            catch (HttpRequestException)
-            {
-                throw new ArgumentException("Endpoint is not available!");
+                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
             }
 
+            try
+            {
+                // Send a test request to ensure the client is properly initialized
+                var response = await client.GetAsync("");
+                response.EnsureSuccessStatusCode(); // Throw an exception if the status code is not successful
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine($"HTTP Request Exception: {ex.Message}");
+                throw new ArgumentException("Endpoint is not available or authentication failed!");
+            }
         }
 
         public async Task<List<T>> SearchAsync<T>(string endpoint, string query, CancellationToken token = default)

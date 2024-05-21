@@ -36,6 +36,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.Resources.Style
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodClient/Views/FoodRequestCreatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.Views.FoodRequestCreatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FoodRequestCreatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FoodRequestCreatePage.xaml
+
 [D:/Egyetem/6.felev/MAUI/FoodForRequest/KF/KF/Backend/FoodForRequest/FoodClient/FoodClient/Views/FoodRequestDetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FoodClient.Views.FoodRequestDetailsPage.xaml

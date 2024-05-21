@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using FoodClient.Models;
 using FoodClient.Services;
+using FoodClient.Views;
 using FoodForRequestApp.Services;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
@@ -82,7 +83,7 @@ namespace FoodClient.ViewModels
         }
 
         [RelayCommand]
-        private async Task LoadFoodRequestsAsync()
+         public async Task LoadFoodRequestsAsync()
         {
             var client = await AuthService.GetAuthenticatedClientAsync();
 
@@ -107,6 +108,7 @@ namespace FoodClient.ViewModels
                 IsBusy = false;
             }
         }
+    
 
         public void AddIngredientToFilter(string ingredient)
         {
@@ -203,7 +205,7 @@ namespace FoodClient.ViewModels
         }
 
 
-        private async Task LoadAllIngredientsAsync()
+        public async Task LoadAllIngredientsAsync()
         {
             _cts?.Cancel(); // Cancel any ongoing task
             _cts = new CancellationTokenSource();
@@ -276,6 +278,16 @@ namespace FoodClient.ViewModels
             {
                 IsBusy = false;
             }
+
+
+        }
+
+        [RelayCommand]
+        private async Task NavigateToCreateAsync()
+        {
+            var createViewModel = new FoodRequestCreateViewModel(_restService);
+            var createPage = new FoodRequestCreatePage { BindingContext = createViewModel };
+            await Shell.Current.Navigation.PushAsync(createPage);
         }
     }
 }

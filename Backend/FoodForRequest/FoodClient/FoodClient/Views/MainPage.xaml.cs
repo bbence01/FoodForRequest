@@ -8,11 +8,25 @@ namespace FoodClient.Views
 {
     public partial class MainPage : ContentPage
     {
+
+        MainPageViewModel viewModel;
+
         public MainPage(MainPageViewModel viewModel)
         {
             InitializeComponent();
+            this.viewModel = viewModel;
+
             BindingContext = viewModel;
-            Console.WriteLine("MainPage Initialized"); 
+
+            this.Appearing += MainPage_Appearing;
+
+        }
+
+        private async void MainPage_Appearing(object sender, EventArgs e)
+        {
+            // Ensure the food requests are refreshed each time the page appears
+            await viewModel.LoadFoodRequestsAsync();
+            await viewModel.LoadAllIngredientsAsync();
 
         }
 
@@ -23,7 +37,7 @@ namespace FoodClient.Views
             {
                 var viewModel = new FoodRequestDetailsViewModel(new RestService("http://localhost:5274/"));
                 await viewModel.LoadFoodRequestDetailsAsync(selectedFoodRequest.Id);
-                var detailsPage = new FoodRequestDetailsPage { BindingContext = viewModel };
+                var detailsPage = new FoodRequestDetailsPage(viewModel);
                 await Navigation.PushAsync(detailsPage);
             }
         }
