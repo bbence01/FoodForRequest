@@ -31,6 +31,13 @@
         <member name="T:FoodClient.ViewModels.FoodRequestDetailsViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.CurrentUserId">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel._currentUserId"/>
         </member>
         <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.FoodRequest">
             <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.foodRequest"/>
@@ -56,11 +63,44 @@
         <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.Webimg">
             <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.webimg"/>
         </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.IsRequestor">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.isRequestor"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.CanCompleteRequest">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.canCompleteRequest"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.CanCancelRequest">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.canCancelRequest"/>
+        </member>
         <member name="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.navigateToUpdateCommand">
             <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.NavigateToUpdateCommand"/>.</summary>
         </member>
         <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.NavigateToUpdateCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestDetailsViewModel.NavigateToUpdateAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.completeRequestCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.CompleteRequestCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.CompleteRequestCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestDetailsViewModel.CompleteRequestAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.cancelRequestCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.CancelRequestCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.CancelRequestCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestDetailsViewModel.CancelRequestAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.resubmitRequestCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.ResubmitRequestCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.ResubmitRequestCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestDetailsViewModel.ResubmitRequestAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.addOfferCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.AddOfferCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.AddOfferCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestDetailsViewModel.AddOfferAsync"/>.</summary>
         </member>
         <member name="T:FoodClient.ViewModels.FoodRequestUpdateViewModel">
             <inheritdoc/>
@@ -179,6 +219,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewIngredient">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewIngredient" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentUserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentUserId" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FoodRequest">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FoodRequest" generated properties.</summary>
         </member>
@@ -199,6 +242,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Webimg">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Webimg" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRequestor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRequestor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CanCompleteRequest">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CanCompleteRequest" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CanCancelRequest">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CanCancelRequest" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FoodRequests">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FoodRequests" generated properties.</summary>
@@ -251,6 +303,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewIngredient">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewIngredient" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentUserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentUserId" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FoodRequest">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FoodRequest" generated properties.</summary>
         </member>
@@ -271,6 +326,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Webimg">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Webimg" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRequestor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRequestor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CanCompleteRequest">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CanCompleteRequest" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CanCancelRequest">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CanCancelRequest" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FoodRequests">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FoodRequests" generated properties.</summary>

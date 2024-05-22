@@ -1,10 +1,10 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using FoodClient.Models;
 using FoodClient.Services;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.IO;
-using CommunityToolkit.Mvvm.Input;
 
 namespace FoodClient.ViewModels
 {
@@ -15,15 +15,14 @@ namespace FoodClient.ViewModels
         public FoodRequestDetailsViewModel(RestService restService)
         {
             _restService = restService;
-           
+            ChooseOfferCommand = new AsyncRelayCommand<string>(ChooseOfferAsync);
         }
 
-        
-
-        
+        [ObservableProperty]
+        private string _currentUserId;
 
         [ObservableProperty]
-        public FoodRequest foodRequest;
+        private FoodRequest foodRequest;
 
         [ObservableProperty]
         private ObservableCollection<Ingredient> ingredients;
@@ -40,40 +39,45 @@ namespace FoodClient.ViewModels
         [ObservableProperty]
         private Image pictureIMG;
 
-
         [ObservableProperty]
         private bool base64;
 
         [ObservableProperty]
         private bool webimg;
 
+        [ObservableProperty]
+        private bool isRequestor;
+
+        [ObservableProperty]
+        private bool canCompleteRequest;
+
+        [ObservableProperty]
+        private bool canCancelRequest;
+
+        public IAsyncRelayCommand<string> ChooseOfferCommand { get; }
+
         public async Task LoadFoodRequestDetailsAsync(string id)
         {
+            _currentUserId = await SecureStorage.GetAsync("UserId");
+
             FoodRequest = await _restService.GetSingleAsync<FoodRequest>($"foodrequest/{id}");
             Ingredients = new ObservableCollection<Ingredient>(await _restService.GetAsync<Ingredient>($"ingridient/GetIngredientsForRequest/{id}"));
             Offers = new ObservableCollection<Offer>(await _restService.GetAsync<Offer>($"offer/GetOffersForRequest/{id}"));
             Comments = new ObservableCollection<Comment>(await _restService.GetAsync<Comment>($"comment/GetCommentsForRequest/{id}"));
 
+            IsRequestor = IsRequestorCheck();
+            CanCompleteRequest = CanCompleteRequestCheck();
+            CanCancelRequest = CanCancelRequestCheck();
 
             if (FoodRequest.PictureURL.StartsWith("data:image"))
             {
-                  //PictureSource = FoodRequest.PictureURL.Split(',')[1];
-
-
                 MemoryStream stream = new MemoryStream(Convert.FromBase64String(FoodRequest.PictureURL.Split(',')[1]));
-                //ImageSource image = ImageSource.FromStream(() => stream);
-
-
                 PictureIMG = new Image
                 {
                     Source = ImageSource.FromStream(() => stream)
                 };
-
                 base64 = true;
                 webimg = false;
-
-
-
             }
             else
             {
@@ -83,7 +87,34 @@ namespace FoodClient.ViewModels
             }
         }
 
-       
+        private async Task ChooseOfferAsync(string offerId)
+        {
+            try
+            {
+                await _restService.PutAsync($"foodrequest/ChooseOffer?foodId={FoodRequest.Id}&offerId={offerId}", new { });
+                await LoadFoodRequestDetailsAsync(FoodRequest.Id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        private bool IsRequestorCheck()
+        {
+            return FoodRequest?.RequestorId == _currentUserId;
+        }
+
+        private bool CanCompleteRequestCheck()
+        {
+            var chosenOffer = Offers.FirstOrDefault(o => o.Choosen);
+            return chosenOffer != null && chosenOffer.ContractorId == _currentUserId;
+        }
+
+        private bool CanCancelRequestCheck()
+        {
+            return FoodRequest?.RequestorId == _currentUserId;
+        }
 
         [RelayCommand]
         private async Task NavigateToUpdateAsync()
@@ -94,6 +125,65 @@ namespace FoodClient.ViewModels
             await Shell.Current.Navigation.PushAsync(updatePage);
         }
 
+        [RelayCommand]
+
+        private async Task CompleteRequestAsync()
+        {
+            try
+            {
+                await _restService.PutAsync($"foodrequest/CompleteRequest?id={FoodRequest.Id}", new { });
+                await LoadFoodRequestDetailsAsync(FoodRequest.Id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        [RelayCommand]
+
+        private async Task CancelRequestAsync()
+        {
+            try
+            {
+                await _restService.PutAsync($"foodrequest/CancelRequest?id={FoodRequest.Id}", new { });
+                await LoadFoodRequestDetailsAsync(FoodRequest.Id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        [RelayCommand]
+
+        private async Task ResubmitRequestAsync()
+        {
+            try
+            {
+                await _restService.PutAsync($"foodrequest/Resubmit?id={FoodRequest.Id}", new { });
+                await LoadFoodRequestDetailsAsync(FoodRequest.Id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        [RelayCommand]
+
+        private async Task AddOfferAsync()
+        {
+            try
+            {
+                await _restService.PostIdAsync($"offer/AddOffer?fid={FoodRequest.Id}&cid={_currentUserId}", new { });
+                await LoadFoodRequestDetailsAsync(FoodRequest.Id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
 
     }
 }

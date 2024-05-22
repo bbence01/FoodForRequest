@@ -58,7 +58,22 @@ namespace FoodForRequest.Controllers
 
 
 
-        
+        [HttpPost("AddOffer")]
+        public async void AddOfferId(string fid , string cid)
+        {
+            Offer offer = new Offer()
+            {
+                FoodId = fid,
+                ContractorId =  cid,
+                Choosen = false
+
+            };
+
+            offerRepo.Create(offer);
+
+
+
+        }
 
         // POST api/<WordController>
         [HttpPost]

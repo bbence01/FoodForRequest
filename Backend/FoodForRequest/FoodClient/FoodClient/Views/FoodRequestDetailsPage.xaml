@@ -2,20 +2,18 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FoodClient.Views.FoodRequestDetailsPage"
+             x:Name="Page"
              Title="Food Request Details">
 
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="10" Spacing="10">
 
-                <VerticalStackLayout  IsVisible="{Binding webimg}" >
+                <VerticalStackLayout IsVisible="{Binding webimg}">
                     <Image IsVisible="{Binding webimg}" Source="{Binding PictureSource}" Aspect="AspectFill" />
-
-
                 </VerticalStackLayout>
 
-                <Image IsVisible="{Binding Base64}"  Source="{Binding PictureIMG.Source}" Aspect="AspectFill" />
-
+                <Image IsVisible="{Binding base64}" Source="{Binding PictureIMG.Source}" Aspect="AspectFill" />
 
                 <Label Text="Name:" FontAttributes="Bold"/>
                 <Label Text="{Binding FoodRequest.Name}"/>
@@ -27,7 +25,10 @@
                 <Label Text="{Binding FoodRequest.Payment}"/>
 
                 <Label Text="Status:" FontAttributes="Bold"/>
-                <Label Text="{Binding FoodRequest.Status}"/>
+                <Label Text="IsDone:" FontAttributes="Bold"/>
+                <Label Text="{Binding FoodRequest.IsDone}"/>
+                <Label Text="InProgress:" FontAttributes="Bold"/>
+                <Label Text="{Binding FoodRequest.InProgress}"/>
 
                 <Label Text="Delivery Options:" FontAttributes="Bold"/>
                 <Label Text="{Binding FoodRequest.Deliveryoptions}"/>
@@ -45,10 +46,24 @@
                 <CollectionView ItemsSource="{Binding Offers}">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Label Text="{Binding Description}"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
+                                <Label Text="{Binding Id}" VerticalOptions="Center"/>
+                                <Label Text=" Choosen:" FontAttributes="Bold"/>
+
+                                <Label Text="{Binding Choosen}" VerticalOptions="Center"/>
+
+                                <Button Text="Choose" Command="{Binding Source={x:Reference Page}, Path=BindingContext.ChooseOfferCommand}" CommandParameter="{Binding Id}" IsVisible="{Binding Source={x:Reference Page}, Path=BindingContext.IsRequestor}" HorizontalOptions="End"/>
+                            </StackLayout>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
+                <Button Text="Add Offer" Command="{Binding AddOfferCommand}"/>
+
+
+
+
+
+
 
                 <Label Text="Comments:" FontAttributes="Bold"/>
                 <CollectionView ItemsSource="{Binding Comments}">
@@ -58,9 +73,11 @@
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
+                <Button Text="Complete Request" Command="{Binding CompleteRequestCommand}" IsVisible="{Binding CanCompleteRequest}"/>
+                <Button Text="Cancel Request" Command="{Binding CancelRequestCommand}" IsVisible="{Binding CanCancelRequest}"/>
+                <Button Text="Resubmit Request" Command="{Binding ResubmitRequestCommand}" IsVisible="{Binding CanCancelRequest}"/>
 
                 <Button Text="Update" Command="{Binding NavigateToUpdateCommand}"/>
-
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

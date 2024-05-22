@@ -729,6 +729,33 @@
   },
   {
     "ContainingType": "FoodForRequest.Controllers.OfferController",
+    "Method": "AddOfferId",
+    "RelativePath": "Offer/AddOffer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FoodForRequest.Controllers.OfferController",
     "Method": "GetAllOffer",
     "RelativePath": "Offer/all",
     "HttpMethod": "GET",

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodForRequest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddf245d51fbe4a5bd425255aa1b56f402c21462e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97292f6fea29af1fc6906366621c7ac04234c552")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodForRequest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodForRequest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

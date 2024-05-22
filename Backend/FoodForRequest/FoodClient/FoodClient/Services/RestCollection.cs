@@ -227,6 +227,21 @@ namespace FoodClient.Services
             response.EnsureSuccessStatusCode();
         }
 
+        public async Task PostIdAsync<T>( string endpoint, T item)
+        {
+            HttpResponseMessage response =
+                await client.PostAsJsonAsync(endpoint, item);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var error = await response.Content.ReadAsAsync<RestExceptionInfo>();
+                throw new ArgumentException(error.Msg);
+            }
+            response.EnsureSuccessStatusCode();
+        }
+
+
+
         public void Post<T>(T item, string endpoint)
         {
             HttpResponseMessage response =

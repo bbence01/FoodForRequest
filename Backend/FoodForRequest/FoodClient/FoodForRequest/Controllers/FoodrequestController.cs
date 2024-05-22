@@ -457,7 +457,7 @@ namespace FoodForRequest.Controllers
             var requestor = this.foodUserRepository.GetFooduserById(userManager.GetUserId(User));
 
 
-            if (food == null || food.Requestor.Id != userManager.GetUserId(User))
+            if (food == null || food.RequestorId != userManager.GetUserId(User))
                 return BadRequest(new { message = "Invalid food or unauthorized access" });
 
             if (food.InProgress || food.IsDone)

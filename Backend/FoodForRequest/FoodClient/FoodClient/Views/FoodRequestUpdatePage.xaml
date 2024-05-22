@@ -39,7 +39,7 @@
 
                 <Entry Placeholder="Add new ingredient" Text="{Binding NewIngredient}"/>
                 <Button Text="Add Ingredient" Command="{Binding AddIngredientCommand}"/>
-
+              
                 <Button Text="Save" Command="{Binding SaveCommand}"/>
                 <Button Text="Cancel" Command="{Binding CancelCommand}"/>
 

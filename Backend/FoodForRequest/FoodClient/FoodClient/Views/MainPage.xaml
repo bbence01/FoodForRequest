@@ -38,7 +38,9 @@
                                 <Border Margin="2" Padding="5" BackgroundColor="#e0e0e0">
                                     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                                         <Label Text="{Binding .}" VerticalOptions="Center"/>
-                                        <Button Text="Remove" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=BindingContext.RemoveIngredientFromFilterCommand}" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                                        <Button Text="Remove" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, 
+                                            Path=BindingContext.RemoveIngredientFromFilterCommand}"
+                                                CommandParameter="{Binding .}" HorizontalOptions="End"/>
                                     </StackLayout>
                                 </Border>
                             </DataTemplate>
