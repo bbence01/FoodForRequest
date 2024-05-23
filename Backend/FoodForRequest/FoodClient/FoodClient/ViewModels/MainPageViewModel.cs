@@ -289,5 +289,20 @@ namespace FoodClient.ViewModels
             var createPage = new FoodRequestCreatePage { BindingContext = createViewModel };
             await Shell.Current.Navigation.PushAsync(createPage);
         }
+
+
+        [RelayCommand]
+        private async Task NavigateToUserRequestsAsync()
+        {
+            var userId = await SecureStorage.GetAsync("UserId");
+            var userRequestsViewModel = new FoodRequestForUserViewModel(userId);
+            var userRequestsPage = new FoodRequestForUserPage { BindingContext = userRequestsViewModel };
+            await Shell.Current.Navigation.PushAsync(userRequestsPage);
+
+
+        }
+
+      
+
     }
 }

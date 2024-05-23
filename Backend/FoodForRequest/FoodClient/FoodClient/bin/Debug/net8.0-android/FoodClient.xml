@@ -35,6 +35,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.CurrentUserId">
             <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel._currentUserId"/>
@@ -72,6 +73,9 @@
         <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.CanCancelRequest">
             <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.canCancelRequest"/>
         </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.NewCommentText">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.newCommentText"/>
+        </member>
         <member name="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.navigateToUpdateCommand">
             <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.NavigateToUpdateCommand"/>.</summary>
         </member>
@@ -102,6 +106,67 @@
         <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.AddOfferCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestDetailsViewModel.AddOfferAsync"/>.</summary>
         </member>
+        <member name="F:FoodClient.ViewModels.FoodRequestDetailsViewModel.postCommentCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.PostCommentCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestDetailsViewModel.PostCommentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestDetailsViewModel.PostCommentAsync"/>.</summary>
+        </member>
+        <member name="T:FoodClient.ViewModels.FoodRequestForUserViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.FoodRequests">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel.foodRequests"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.SelectedFoodRequest">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel.selectedFoodRequest"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.IsBusy">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel.isBusy"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.ErrorMessage">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel.errorMessage"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.SearchQuery">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel.searchQuery"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.FilterQuery">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel.filterQuery"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.AllIngredients">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel.allIngredients"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.SelectedIngredients">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel.selectedIngredients"/>
+        </member>
+        <member name="F:FoodClient.ViewModels.FoodRequestForUserViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestForUserViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestForUserViewModel.Logout"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.FoodRequestForUserViewModel.loadFoodRequestsCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestForUserViewModel.LoadFoodRequestsCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.LoadFoodRequestsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestForUserViewModel.LoadFoodRequestsAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.FoodRequestForUserViewModel.filterFoodRequestsCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestForUserViewModel.FilterFoodRequestsCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.FilterFoodRequestsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestForUserViewModel.FilterFoodRequestsAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.FoodRequestForUserViewModel.navigateToCreateCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.FoodRequestForUserViewModel.NavigateToCreateCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.NavigateToCreateCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestForUserViewModel.NavigateToCreateAsync"/>.</summary>
+        </member>
         <member name="T:FoodClient.ViewModels.FoodRequestUpdateViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -129,6 +194,7 @@
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.FoodRequestUpdateViewModel.CancleAsync"/>.</summary>
         </member>
         <member name="T:FoodClient.ViewModels.MainPageViewModel">
+            <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
@@ -182,6 +248,12 @@
         </member>
         <member name="P:FoodClient.ViewModels.MainPageViewModel.NavigateToCreateCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.NavigateToCreateAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.MainPageViewModel.navigateToUserRequestsCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.NavigateToUserRequestsCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.NavigateToUserRequestsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.NavigateToUserRequestsAsync"/>.</summary>
         </member>
         <member name="T:FoodClient.Views.LogoutPage">
             <inheritdoc/>
@@ -251,6 +323,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CanCancelRequest">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CanCancelRequest" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewCommentText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewCommentText" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FoodRequests">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FoodRequests" generated properties.</summary>
@@ -335,6 +410,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CanCancelRequest">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CanCancelRequest" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewCommentText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewCommentText" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FoodRequests">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FoodRequests" generated properties.</summary>

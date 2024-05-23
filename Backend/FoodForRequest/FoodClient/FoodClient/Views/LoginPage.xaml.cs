@@ -33,6 +33,7 @@ namespace FoodClient.Views
             {
                 await SecureStorage.SetAsync("AuthToken", response.Token);
                 await SecureStorage.SetAsync("UserId", response.Id);
+                await SecureStorage.SetAsync("Expiration", response.Expiration.ToString());
 
                 var mainPageViewModel = App.Services.GetService<MainPageViewModel>();
                 await Navigation.PushAsync(new MainPage(mainPageViewModel));

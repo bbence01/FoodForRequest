@@ -14,6 +14,9 @@
     <MauiXaml Update="Views\FoodRequestDetailsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\FoodRequestForUserPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\FoodRequestUpdatePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

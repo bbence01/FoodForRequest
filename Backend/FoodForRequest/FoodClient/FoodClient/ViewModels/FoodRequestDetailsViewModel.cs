@@ -54,6 +54,9 @@ namespace FoodClient.ViewModels
         [ObservableProperty]
         private bool canCancelRequest;
 
+        [ObservableProperty]
+        private string newCommentText; 
+
         public IAsyncRelayCommand<string> ChooseOfferCommand { get; }
 
         public async Task LoadFoodRequestDetailsAsync(string id)
@@ -64,6 +67,15 @@ namespace FoodClient.ViewModels
             Ingredients = new ObservableCollection<Ingredient>(await _restService.GetAsync<Ingredient>($"ingridient/GetIngredientsForRequest/{id}"));
             Offers = new ObservableCollection<Offer>(await _restService.GetAsync<Offer>($"offer/GetOffersForRequest/{id}"));
             Comments = new ObservableCollection<Comment>(await _restService.GetAsync<Comment>($"comment/GetCommentsForRequest/{id}"));
+
+            var reversedOffersList = new ObservableCollection<Comment>(Comments.Reverse());
+
+            Comments.Clear();
+            foreach (var coment in reversedOffersList)
+            {
+                Comments.Add(coment);
+            }
+
 
             IsRequestor = IsRequestorCheck();
             CanCompleteRequest = CanCompleteRequestCheck();
@@ -177,6 +189,29 @@ namespace FoodClient.ViewModels
             try
             {
                 await _restService.PostIdAsync($"offer/AddOffer?fid={FoodRequest.Id}&cid={_currentUserId}", new { });
+                await LoadFoodRequestDetailsAsync(FoodRequest.Id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        [RelayCommand]
+
+        private async Task PostCommentAsync()
+        {
+            try
+            {
+                var comment = new CommentCreatModel
+                {
+                    RequestId = FoodRequest.Id,
+                    ContractorId = _currentUserId,
+                    Text = NewCommentText
+                };
+
+                await _restService.PostAsync( comment, "comment");
+                NewCommentText = string.Empty;
                 await LoadFoodRequestDetailsAsync(FoodRequest.Id);
             }
             catch (Exception ex)

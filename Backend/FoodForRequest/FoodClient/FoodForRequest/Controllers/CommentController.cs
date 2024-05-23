@@ -54,7 +54,7 @@ namespace FoodForRequest.Controllers
         
 
         [HttpPost]
-        public void Post( [FromBody] Comment c)
+        public void Post( [FromBody] CommentCreatModel c)
         {
             Comment comment = new Comment()
             {

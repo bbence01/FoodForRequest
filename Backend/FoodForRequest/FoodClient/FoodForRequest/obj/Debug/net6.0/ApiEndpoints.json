@@ -51,7 +51,7 @@
     "Parameters": [
       {
         "Name": "c",
-        "Type": "FoodForRequest.Models.Comment",
+        "Type": "FoodForRequest.Models.CommentCreatModel",
         "IsRequired": true
       }
     ],

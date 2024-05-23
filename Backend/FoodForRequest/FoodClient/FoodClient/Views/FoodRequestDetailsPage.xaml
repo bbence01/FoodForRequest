@@ -73,6 +73,11 @@
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
+
+                <Entry Placeholder="Write a comment..." Text="{Binding NewCommentText}"/>
+                <Button Text="Post Comment" Command="{Binding PostCommentCommand}"/>
+
+
                 <Button Text="Complete Request" Command="{Binding CompleteRequestCommand}" IsVisible="{Binding CanCompleteRequest}"/>
                 <Button Text="Cancel Request" Command="{Binding CancelRequestCommand}" IsVisible="{Binding CanCancelRequest}"/>
                 <Button Text="Resubmit Request" Command="{Binding ResubmitRequestCommand}" IsVisible="{Binding CanCancelRequest}"/>

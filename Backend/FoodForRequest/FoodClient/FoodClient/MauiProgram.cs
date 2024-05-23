@@ -31,6 +31,8 @@ namespace FoodClient
             builder.Services.AddSingleton<FoodRequestDetailsViewModel>();
             builder.Services.AddSingleton<FoodRequestUpdatePage>();
             builder.Services.AddSingleton<FoodRequestUpdateViewModel>();
+            builder.Services.AddSingleton<FoodRequestForUserPage>();
+            builder.Services.AddSingleton<FoodRequestForUserViewModel>();
 
             builder.Services.AddSingleton<IRestService, RestService>();
             builder.Services.AddTransient<MainPageViewModel>();

@@ -9,17 +9,18 @@
     
 
 
-    <!-- Flyout Header -->
     <FlyoutItem Title="Main Page" Icon="icon.png">
         <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
     </FlyoutItem>
 
-    <!-- Add a new FlyoutItem for Login Page -->
     <FlyoutItem Title="Login" Icon="icon.png">
         <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" />
     </FlyoutItem>
+    <ShellContent Title="FoodRequestForUser" Route="FoodRequestForUser"
+                      ContentTemplate="{DataTemplate local:FoodRequestForUserPage}" />
+   
 
-    <!-- Add a new MenuItem for Logout -->
+
     <MenuItem Text="Logout"
               IconImageSource="logout_icon.png"
               Command="{Binding LogoutCommand}" />
@@ -28,7 +29,7 @@
           Title="LogoutPage"
           ContentTemplate="{DataTemplate local:LogoutPage}"
           Route="Logout" />
-
+    
     <ShellContent Route="FoodRequestDetailsPage" ContentTemplate="{DataTemplate local:FoodRequestDetailsPage}" />
     <ShellContent Route="FoodRequestUpdatePage" ContentTemplate="{DataTemplate local:FoodRequestUpdatePage}" />
     <ShellContent Route="FoodRequestCreatePage" ContentTemplate="{DataTemplate local:FoodRequestCreatePage}" />
