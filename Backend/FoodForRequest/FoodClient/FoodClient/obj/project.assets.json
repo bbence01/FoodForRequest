@@ -755,6 +755,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -808,6 +824,15 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/MonoAndroid10/_._": {}
@@ -3333,6 +3358,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -3386,6 +3427,15 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/MonoAndroid10/_._": {}
@@ -5911,6 +5961,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -5964,6 +6030,15 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/MonoAndroid10/_._": {}
@@ -8489,6 +8564,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -8542,6 +8633,15 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/MonoAndroid10/_._": {}
@@ -11067,6 +11167,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -11120,6 +11236,15 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/MonoAndroid10/_._": {}
@@ -13645,6 +13770,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -13698,6 +13839,15 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/MonoAndroid10/_._": {}
@@ -16223,6 +16373,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -16276,6 +16442,15 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/MonoAndroid10/_._": {}
@@ -18801,6 +18976,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -18854,6 +19045,15 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/MonoAndroid10/_._": {}
@@ -21355,6 +21555,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -21388,6 +21604,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -22121,6 +22346,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -22154,6 +22395,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -22887,6 +23137,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -22920,6 +23186,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -23653,6 +23928,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -23686,6 +23977,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -24419,6 +24719,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -24452,6 +24768,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -25185,6 +25510,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -25218,6 +25559,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -25951,6 +26301,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -25984,6 +26350,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -26717,6 +27092,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -26750,6 +27141,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -27483,6 +27883,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -27516,6 +27932,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -28249,6 +28674,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -28282,6 +28723,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -29015,6 +29465,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -29048,6 +29514,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -29781,6 +30256,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -29814,6 +30305,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -30547,6 +31047,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -30580,6 +31096,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -31313,6 +31838,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -31346,6 +31887,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -32079,6 +32629,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -32112,6 +32678,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -32845,6 +33420,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -32878,6 +33469,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -33766,6 +34366,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -33799,6 +34415,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -34647,6 +35272,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -34680,6 +35321,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -35528,6 +36178,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -35561,6 +36227,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -36409,6 +37084,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -36442,6 +37133,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -37290,6 +37990,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -37323,6 +38039,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -38171,6 +38896,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -38204,6 +38945,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -39052,6 +39802,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -39085,6 +39851,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -39939,6 +40714,22 @@
           }
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.5.2": {
         "type": "package",
         "dependencies": {
@@ -39972,6 +40763,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       }
     }
@@ -42504,6 +43304,27 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+    "Refractored.MvvmHelpers/1.6.2": {
+      "sha512": "pXiyT0ad3QI7IzZSSjVNliyhyyAe7lmNPdfAEgSrtjhF9twrYoKbBlTd58IJc67Fw8QmHEur8F9eBA4rj+BZAg==",
+      "type": "package",
+      "path": "refractored.mvvmhelpers/1.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/MvvmHelpers.dll",
+        "lib/net461/MvvmHelpers.pdb",
+        "lib/net461/MvvmHelpers.xml",
+        "lib/netstandard1.0/MvvmHelpers.dll",
+        "lib/netstandard1.0/MvvmHelpers.pdb",
+        "lib/netstandard1.0/MvvmHelpers.xml",
+        "lib/netstandard2.0/MvvmHelpers.dll",
+        "lib/netstandard2.0/MvvmHelpers.pdb",
+        "lib/netstandard2.0/MvvmHelpers.xml",
+        "refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+        "refractored.mvvmhelpers.nuspec"
+      ]
+    },
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
@@ -42643,6 +43464,50 @@
         "ref/xamarinwatchos10/_._",
         "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
         "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -44695,6 +45560,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.Maui.Essentials >= 8.0.40",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "System.IdentityModel.Tokens.Jwt >= 7.5.2"
     ],
     "net8.0-ios17.2": [
@@ -44706,6 +45572,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.Maui.Essentials >= 8.0.40",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "System.IdentityModel.Tokens.Jwt >= 7.5.2"
     ],
     "net8.0-maccatalyst17.2": [
@@ -44717,6 +45584,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.Maui.Essentials >= 8.0.40",
       "Microsoft.NET.ILLink.Tasks >= 8.0.2",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "System.IdentityModel.Tokens.Jwt >= 7.5.2"
     ],
     "net8.0-windows10.0.19041": [
@@ -44727,6 +45595,7 @@
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
       "Microsoft.Maui.Essentials >= 8.0.40",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "System.IdentityModel.Tokens.Jwt >= 7.5.2"
     ]
   },
@@ -44830,6 +45699,10 @@
             "version": "[8.0.2, )",
             "autoReferenced": true
           },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
+          },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[7.5.2, )"
@@ -44892,6 +45765,10 @@
             "target": "Package",
             "version": "[8.0.2, )",
             "autoReferenced": true
+          },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
@@ -44956,6 +45833,10 @@
             "version": "[8.0.2, )",
             "autoReferenced": true
           },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
+          },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[7.5.2, )"
@@ -45013,6 +45894,10 @@
           "Microsoft.Maui.Essentials": {
             "target": "Package",
             "version": "[8.0.40, )"
+          },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",

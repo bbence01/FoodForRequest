@@ -6,6 +6,7 @@ using FoodClient.Views;
 using FoodForRequestApp.Services;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace FoodClient.ViewModels
 {
@@ -19,18 +20,24 @@ namespace FoodClient.ViewModels
             FoodRequests = new ObservableCollection<FoodRequest>();
             AllIngredients = new ObservableCollection<string>();
             SelectedIngredients = new ObservableCollection<string>();
+            Users = new ObservableCollection<FoodUser>();
             LoadFoodRequestsAsync();
             SearchFoodRequestsCommand = new AsyncRelayCommand<string>(SearchFoodRequestsAsync);
 
             AddIngredientToFilterCommand = new RelayCommand<string>(AddIngredientToFilter);
             RemoveIngredientFromFilterCommand = new RelayCommand<string>(RemoveIngredientFromFilter);
+            LoadCurrentUserFoundsAsync();
 
             LoadAllIngredientsAsync();
-                        ErrorMessage = string.Empty;
+            LoadUsersAsync();
+            ErrorMessage = string.Empty;
             IsBusy = false;
         }
+        [ObservableProperty]
+        private string name;
 
-
+        [ObservableProperty]
+        private decimal currentUserFounds;
 
         [ObservableProperty]
         private ObservableCollection<FoodRequest> foodRequests;
@@ -55,6 +62,12 @@ namespace FoodClient.ViewModels
 
         [ObservableProperty]
         private ObservableCollection<string> selectedIngredients;
+
+        [ObservableProperty]
+        private ObservableCollection<FoodUser> users;
+
+        [ObservableProperty]
+        private FoodUser selectedUser;
 
         private List<string> FilterIngredients => filterQuery?.Split(',').Select(i => i.Trim()).ToList() ?? new List<string>();
 
@@ -82,11 +95,42 @@ namespace FoodClient.ViewModels
             }
         }
 
+        public async Task LoadCurrentUserFoundsAsync()
+        {
+            _cts?.Cancel(); 
+            _cts = new CancellationTokenSource();
+            var token = _cts.Token;
+            var userId = await SecureStorage.GetAsync("UserId");
+
+            try
+            {
+                IsBusy = true;
+                var user = await _restService.GetSingleAsync<FoodUser>($"fooduser/{userId}");
+                if (user != null)
+                {
+                    CurrentUserFounds = user.Founds;
+                    Name = user.FoodUserName;
+                }
+            }
+            catch (OperationCanceledException)
+            {
+                ErrorMessage = "Operation was canceled.";
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"An error occurred: {ex.Message}";
+                Console.WriteLine(ErrorMessage);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
+
         [RelayCommand]
-         public async Task LoadFoodRequestsAsync()
+        public async Task LoadFoodRequestsAsync()
         {
             var client = await AuthService.GetAuthenticatedClientAsync();
-
 
             try
             {
@@ -108,7 +152,6 @@ namespace FoodClient.ViewModels
                 IsBusy = false;
             }
         }
-    
 
         public void AddIngredientToFilter(string ingredient)
         {
@@ -125,38 +168,7 @@ namespace FoodClient.ViewModels
                 SelectedIngredients.Remove(ingredient);
             }
         }
-        /*
-        private async Task SearchFoodRequestsAsync(string query)
-        {
-            _cts?.Cancel(); 
-            _cts = new CancellationTokenSource();
-            var token = _cts.Token;
 
-            try
-            {
-                IsBusy = true;
-                var items = await _restService.SearchAsync<FoodRequest>("foodrequest/Search", query, token);
-                FoodRequests.Clear();
-                foreach (var item in items)
-                {
-                    FoodRequests.Add(item);
-                }
-            }
-            catch (OperationCanceledException)
-            {
-                ErrorMessage = "Operation was canceled.";
-            }
-            catch (Exception ex)
-            {
-                ErrorMessage = $"An error occurred: {ex.Message}";
-                Console.WriteLine(ErrorMessage);
-            }
-            finally
-            {
-                IsBusy = false;
-            }
-        }
-        */
         private async Task SearchFoodRequestsAsync(string query)
         {
             _cts?.Cancel();
@@ -167,24 +179,18 @@ namespace FoodClient.ViewModels
             {
                 IsBusy = true;
 
-                var items = new ObservableCollection<FoodRequest>(); ;
-
+                var items = new ObservableCollection<FoodRequest>();
 
                 foreach (var item in FoodRequests)
                 {
-                    
-
-                        items.Add(item);
-                    
+                    items.Add(item);
                 }
-
 
                 FoodRequests.Clear();
                 foreach (var item in items)
                 {
                     if (item.Description.Contains(query) || item.Name.Contains(query))
                     {
-
                         FoodRequests.Add(item);
                     }
                 }
@@ -204,17 +210,16 @@ namespace FoodClient.ViewModels
             }
         }
 
-
         public async Task LoadAllIngredientsAsync()
         {
-            _cts?.Cancel(); // Cancel any ongoing task
+            _cts?.Cancel(); 
             _cts = new CancellationTokenSource();
             var token = _cts.Token;
 
             try
             {
                 IsBusy = true;
-                var ingredients = await _restService.GetAsync<Ingredient>("ingridient/GetDistinct") ;
+                var ingredients = await _restService.GetAsync<Ingredient>("ingridient/GetDistinct");
                 AllIngredients.Clear();
                 foreach (var ingredient in ingredients)
                 {
@@ -236,11 +241,41 @@ namespace FoodClient.ViewModels
             }
         }
 
-        [RelayCommand]
+        public async Task LoadUsersAsync()
+        {
+            _cts?.Cancel(); 
+            _cts = new CancellationTokenSource();
+            var token = _cts.Token;
 
+            try
+            {
+                IsBusy = true;
+                var users = await _restService.GetAsync<FoodUser>("fooduser/all");
+                Users.Clear();
+                foreach (var user in users)
+                {
+                    Users.Add(user);
+                }
+            }
+            catch (OperationCanceledException)
+            {
+                ErrorMessage = "Operation was canceled.";
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"An error occurred: {ex.Message}";
+                Console.WriteLine(ErrorMessage);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
+
+        [RelayCommand]
         private async Task FilterFoodRequestsAsync()
         {
-            _cts?.Cancel(); // Cancel any ongoing task
+            _cts?.Cancel(); 
             _cts = new CancellationTokenSource();
             var token = _cts.Token;
 
@@ -259,11 +294,8 @@ namespace FoodClient.ViewModels
                 }
                 else
                 {
-                    LoadFoodRequestsAsync();
-
+                    await LoadFoodRequestsAsync();
                 }
-
-
             }
             catch (OperationCanceledException)
             {
@@ -278,8 +310,124 @@ namespace FoodClient.ViewModels
             {
                 IsBusy = false;
             }
+        }
+
+        [RelayCommand]
+        private async Task FilterForUserAsync()
+        {
+            _cts?.Cancel(); 
+            _cts = new CancellationTokenSource();
+            var token = _cts.Token;
+            var userId = SelectedUser?.Id ?? await SecureStorage.GetAsync("UserId");
+
+            try
+            {
+                IsBusy = true;
+
+                var items = new ObservableCollection<FoodRequest>();
+
+                foreach (var item in FoodRequests)
+                {
+                    if (item.RequestorId == userId)
+                    {
+                        items.Add(item);
+                    }
+                }
+
+                FoodRequests.Clear();
+                foreach (var item in items)
+                {
+                    FoodRequests.Add(item);
+                }
+            }
+            catch (OperationCanceledException)
+            {
+                ErrorMessage = "Operation was canceled.";
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"An error occurred: {ex.Message}";
+                Console.WriteLine(ErrorMessage);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
+
+        [RelayCommand]
+        private async Task FilterByChosenOfferAsync()
+        {
+            _cts?.Cancel();
+            _cts = new CancellationTokenSource();
+            var token = _cts.Token;
+            var userId = await SecureStorage.GetAsync("UserId");
+
+            try
+            {
+                IsBusy = true;
+
+                var items = new ObservableCollection<FoodRequest>();
 
 
+
+                foreach (var item in FoodRequests)
+                {
+
+                   ObservableCollection<Offer> itemoffers = new ObservableCollection<Offer>(await _restService.GetAsync<Offer>($"offer/GetOffersForRequest/{item.Id}"));
+
+                    var chosenOffer = itemoffers.FirstOrDefault(o => o.Choosen && o.ContractorId == userId);
+                    if (chosenOffer != null)
+                    {
+                        items.Add(item);
+                    }
+                }
+
+                FoodRequests.Clear();
+                foreach (var item in items)
+                {
+                    FoodRequests.Add(item);
+                }
+            }
+            catch (OperationCanceledException)
+            {
+                ErrorMessage = "Operation was canceled.";
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"An error occurred: {ex.Message}";
+                Console.WriteLine(ErrorMessage);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
+
+        [RelayCommand]
+        private async Task ResetAsync()
+        {
+            _cts?.Cancel(); 
+            _cts = new CancellationTokenSource();
+            var token = _cts.Token;
+
+            try
+            {
+                await LoadFoodRequestsAsync();
+            }
+            catch (OperationCanceledException)
+            {
+                ErrorMessage = "Operation was canceled.";
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = $"An error occurred: {ex.Message}";
+                Console.WriteLine(ErrorMessage);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
         }
 
         [RelayCommand]
@@ -289,20 +437,5 @@ namespace FoodClient.ViewModels
             var createPage = new FoodRequestCreatePage { BindingContext = createViewModel };
             await Shell.Current.Navigation.PushAsync(createPage);
         }
-
-
-        [RelayCommand]
-        private async Task NavigateToUserRequestsAsync()
-        {
-            var userId = await SecureStorage.GetAsync("UserId");
-            var userRequestsViewModel = new FoodRequestForUserViewModel(userId);
-            var userRequestsPage = new FoodRequestForUserPage { BindingContext = userRequestsViewModel };
-            await Shell.Current.Navigation.PushAsync(userRequestsPage);
-
-
-        }
-
-      
-
     }
 }

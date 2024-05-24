@@ -37,9 +37,10 @@ namespace FoodClient
             builder.Services.AddSingleton<IRestService, RestService>();
             builder.Services.AddTransient<MainPageViewModel>();
 
-            builder.Services.AddTransient<MainPageViewModel>();
+            builder.Services.AddTransient<FoodRequestForUserPage>();
+            builder.Services.AddTransient<FoodRequestForUserViewModel>();
 
-          
+
 
             return builder.Build();
         }

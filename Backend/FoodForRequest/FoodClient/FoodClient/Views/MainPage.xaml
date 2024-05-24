@@ -3,53 +3,57 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FoodClient.Views"
              x:Class="FoodClient.Views.MainPage">
-   
 
-        <ContentPage.Content>
+    <ContentPage.Content>
         <ScrollView>
-
             <StackLayout Padding="10" Spacing="20">
-            <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
-            <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" />
+                <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
+                <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" />
 
-            <StackLayout Orientation="Horizontal" Spacing="20">
-                <StackLayout>
-                    <Button Text="Load Ingredients" Command="{Binding LoadAllIngredientsCommand}" />
-                    <Label Text="All Ingredients:" FontAttributes="Bold"/>
-                    <CollectionView ItemsSource="{Binding AllIngredients}" SelectionMode="Single" HeightRequest="200">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <Border Margin="2" Padding="5" BackgroundColor="#f0f0f0">
-                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                                        <Label Text="{Binding .}" VerticalOptions="Center"/>
-                                        <Button Text="Add" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=BindingContext.AddIngredientToFilterCommand}" CommandParameter="{Binding .}" HorizontalOptions="End"/>
-                                    </StackLayout>
-                                </Border>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <StackLayout>
+                        <Button Text="Load Ingredients" Command="{Binding LoadAllIngredientsCommand}" />
+                        <Label Text="All Ingredients:" FontAttributes="Bold"/>
+                        <CollectionView ItemsSource="{Binding AllIngredients}" SelectionMode="Single" HeightRequest="200">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Margin="2" Padding="5" BackgroundColor="#f0f0f0">
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                            <Label Text="{Binding .}" VerticalOptions="Center"/>
+                                            <Button Text="Add" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=BindingContext.AddIngredientToFilterCommand}" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                                        </StackLayout>
+                                    </Border>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </StackLayout>
+
+                    <StackLayout>
+                        <Label Text="Selected Ingredients:" FontAttributes="Bold"/>
+                        <CollectionView ItemsSource="{Binding SelectedIngredients}" SelectionMode="Single" HeightRequest="200">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Margin="2" Padding="5" BackgroundColor="#e0e0e0">
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                            <Label Text="{Binding .}" VerticalOptions="Center"/>
+                                            <Button Text="Remove" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=BindingContext.RemoveIngredientFromFilterCommand}" CommandParameter="{Binding .}" HorizontalOptions="End"/>
+                                        </StackLayout>
+                                    </Border>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </StackLayout>
                 </StackLayout>
 
-                <StackLayout>
-                    <Label Text="Selected Ingredients:" FontAttributes="Bold"/>
-                    <CollectionView ItemsSource="{Binding SelectedIngredients}" SelectionMode="Single" HeightRequest="200">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <Border Margin="2" Padding="5" BackgroundColor="#e0e0e0">
-                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                                        <Label Text="{Binding .}" VerticalOptions="Center"/>
-                                        <Button Text="Remove" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, 
-                                            Path=BindingContext.RemoveIngredientFromFilterCommand}"
-                                                CommandParameter="{Binding .}" HorizontalOptions="End"/>
-                                    </StackLayout>
-                                </Border>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
-                </StackLayout>
-            </StackLayout>
+                <Button Text="Filter" Command="{Binding FilterFoodRequestsCommand}" />
 
-            <Button Text="Filter" Command="{Binding FilterFoodRequestsCommand}" />
+                <Label Text="Select User:" FontAttributes="Bold"/>
+                <Picker ItemsSource="{Binding Users}" ItemDisplayBinding="{Binding UserName}" SelectedItem="{Binding SelectedUser}"/>
+
+                <Button Text="Filter For User" Command="{Binding FilterForUserCommand}"/>
+                <Button Text="Filter By Chosen Offer" Command="{Binding FilterByChosenOfferCommand}"/>
+                <Button Text="Reset" Command="{Binding ResetCommand}"/>
+
                 <CollectionView ItemsSource="{Binding FoodRequests}" SelectionMode="Single" SelectionChanged="OnSelectionChanged">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
@@ -62,15 +66,12 @@
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
+
                 <Button Text="Create New Food Request" Command="{Binding NavigateToCreateCommand}"/>
 
-
-            <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}"/>
-            <Label Text="{Binding ErrorMessage}" TextColor="Red" />
-        </StackLayout>
-            </ScrollView>
-
+                <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}"/>
+                <Label Text="{Binding ErrorMessage}" TextColor="Red" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
-
-
 </ContentPage>

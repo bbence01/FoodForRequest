@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows;
 
 namespace FoodClient.Services
-{ //Microsoft.AspNet.WebApi.Client
+{ 
     public class RestService: IRestService
     {
         HttpClient client;
@@ -49,7 +49,6 @@ namespace FoodClient.Services
             client.DefaultRequestHeaders.Accept.Add(
                 new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
 
-            // Retrieve the token from secure storage
             var token = await SecureStorage.GetAsync("AuthToken");
             if (!string.IsNullOrEmpty(token))
             {
@@ -58,9 +57,8 @@ namespace FoodClient.Services
 
             try
             {
-                // Send a test request to ensure the client is properly initialized
                 var response = await client.GetAsync("");
-                response.EnsureSuccessStatusCode(); // Throw an exception if the status code is not successful
+                response.EnsureSuccessStatusCode(); 
             }
             catch (HttpRequestException ex)
             {

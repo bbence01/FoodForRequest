@@ -24,7 +24,6 @@ namespace FoodClient.Views
 
         private async void MainPage_Appearing(object sender, EventArgs e)
         {
-            // Ensure the food requests are refreshed each time the page appears
             await viewModel.LoadFoodRequestsAsync();
             await viewModel.LoadAllIngredientsAsync();
 

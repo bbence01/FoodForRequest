@@ -56,7 +56,6 @@ namespace FoodClient
             }
             else
             {
-                //await Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
                 await Shell.Current.GoToAsync("login");
 
             }

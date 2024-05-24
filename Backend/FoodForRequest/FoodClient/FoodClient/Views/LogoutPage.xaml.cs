@@ -15,7 +15,7 @@ public partial class LogoutPage : ContentPage
     {
         try
         {
-         //   await AuthService.LogoutAsync();
+            await AuthService.LogoutAsync();
         }
         catch (Exception ex)
         {

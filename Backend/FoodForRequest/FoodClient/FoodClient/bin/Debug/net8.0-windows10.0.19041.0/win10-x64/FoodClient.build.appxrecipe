@@ -373,6 +373,9 @@
     <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\newtonsoft.json.bson\1.0.2\lib\netstandard2.0\Newtonsoft.Json.Bson.dll">
       <PackagePath>Newtonsoft.Json.Bson.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\refractored.mvvmhelpers\1.6.2\lib\netstandard2.0\MvvmHelpers.dll">
+      <PackagePath>MvvmHelpers.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\system.identitymodel.tokens.jwt\7.5.2\lib\net8.0\System.IdentityModel.Tokens.Jwt.dll">
       <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>
     </AppxPackagedFile>

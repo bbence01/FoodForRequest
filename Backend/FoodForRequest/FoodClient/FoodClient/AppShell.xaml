@@ -5,8 +5,11 @@
        Title="FoodClient"
        Shell.FlyoutBehavior="Flyout"
        x:Class="FoodClient.AppShell">
-    
-    
+
+
+    <MenuItem Text="{Binding CurrentUserFounds, StringFormat='Balance: {0:C}'}" IsEnabled="False" />
+    <MenuItem Text="{Binding Name, StringFormat='User: {0}'} " IsEnabled="False" />
+
 
 
     <FlyoutItem Title="Main Page" Icon="icon.png">
@@ -16,14 +19,10 @@
     <FlyoutItem Title="Login" Icon="icon.png">
         <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" />
     </FlyoutItem>
-    <ShellContent Title="FoodRequestForUser" Route="FoodRequestForUser"
-                      ContentTemplate="{DataTemplate local:FoodRequestForUserPage}" />
-   
 
 
-    <MenuItem Text="Logout"
-              IconImageSource="logout_icon.png"
-              Command="{Binding LogoutCommand}" />
+    
+
 
     <ShellContent
           Title="LogoutPage"

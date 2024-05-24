@@ -84,13 +84,14 @@ namespace WordQuiz.Controllers
         public async Task<object> GetFooduser(string id)
         {
             FoodUser p = fooduserRepository.GetFooduserById(id);
-            return new
+            return new FooduserInfoViewModel
             {
-                email = p.Email,
-                id = p.Id,
-                foodUserName = p.FoodUserName,
-                userName = p.UserName,
-                admin = await this.userManager.IsInRoleAsync(p, "Admin")
+                Id = p.Id,
+                Email = p.Email,
+                UserName = p.UserName,
+                FoodUserName = p.FoodUserName,
+                Founds = p.Founds,
+                IsAdmin = await userManager.IsInRoleAsync(p, "Admin")
             };
         }
 

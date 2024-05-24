@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-23T14:42:16.327</Modified>
+      <Modified>2024-05-24T16:40:13.747</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-23T13:42:58.202</Modified>
+      <Modified>2024-05-24T16:40:13.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FoodClient.runtimeconfig.json">
       <PackagePath>FoodClient.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-21T17:40:18.871</Modified>
+      <Modified>2024-05-24T11:37:16.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FoodClient.dll">
       <PackagePath>FoodClient.dll</PackagePath>
-      <Modified>2024-05-23T14:42:15.954</Modified>
+      <Modified>2024-05-24T16:40:13.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FoodClient.exe</PackagePath>
-      <Modified>2024-05-23T14:42:15.960</Modified>
+      <Modified>2024-05-24T16:40:13.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FoodClient.deps.json">
       <PackagePath>FoodClient.deps.json</PackagePath>
-      <Modified>2024-05-23T13:42:57.908</Modified>
+      <Modified>2024-05-24T16:40:13.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -496,6 +496,10 @@
     <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\newtonsoft.json.bson\1.0.2\lib\netstandard2.0\Newtonsoft.Json.Bson.dll">
       <PackagePath>Newtonsoft.Json.Bson.dll</PackagePath>
       <Modified>2018-11-27T23:10:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\refractored.mvvmhelpers\1.6.2\lib\netstandard2.0\MvvmHelpers.dll">
+      <PackagePath>MvvmHelpers.dll</PackagePath>
+      <Modified>2020-05-27T04:48:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bbenc\.nuget\packages\system.identitymodel.tokens.jwt\7.5.2\lib\net8.0\System.IdentityModel.Tokens.Jwt.dll">
       <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>

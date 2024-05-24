@@ -8,15 +8,13 @@ namespace FoodClient
 {
     public partial class AppShell : Shell
     {
-        public ICommand LogoutCommand { get; }
 
         public AppShell()
         {
             InitializeComponent();
-            BindingContext = this;
+            BindingContext = new MainPageViewModel();
 
 
-            LogoutCommand = new Command(async () => await Logout());
 
             Routing.RegisterRoute("login", typeof(LoginPage));
             Routing.RegisterRoute("main", typeof(MainPage));
@@ -24,23 +22,8 @@ namespace FoodClient
 
         }
 
-        private async Task Logout()
-        {
-            try
-            {
-                //await AuthService.LogoutAsync();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error during logout: {ex.Message}");
-            }
-            finally
-            {
-                SecureStorage.Remove("AuthToken");
-                SecureStorage.Remove("UserId");
-                SecureStorage.Remove("Expiration");
-                await Current.GoToAsync("login");
-            }
-        }
+       
+      
+
     }
 }

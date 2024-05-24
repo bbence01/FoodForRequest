@@ -88,7 +88,6 @@ namespace FoodClient.ViewModels
             }
             catch (Exception ex)
             {
-                // Handle error (e.g., show an error message)
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
@@ -118,7 +117,7 @@ namespace FoodClient.ViewModels
             }
             catch (Exception ex)
             {
-                // Handle error (e.g., show an error message)
+              
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }

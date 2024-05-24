@@ -119,6 +119,9 @@
             <inheritdoc/>
             <inheritdoc/>
         </member>
+        <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.UserId">
+            <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel._userId"/>
+        </member>
         <member name="P:FoodClient.ViewModels.FoodRequestForUserViewModel.FoodRequests">
             <inheritdoc cref="F:FoodClient.ViewModels.FoodRequestForUserViewModel.foodRequests"/>
         </member>
@@ -200,6 +203,14 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.Name">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.name"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.CurrentUserFounds">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.currentUserFounds"/>
         </member>
         <member name="P:FoodClient.ViewModels.MainPageViewModel.FoodRequests">
             <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.foodRequests"/>
@@ -225,6 +236,12 @@
         <member name="P:FoodClient.ViewModels.MainPageViewModel.SelectedIngredients">
             <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.selectedIngredients"/>
         </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.Users">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.users"/>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.SelectedUser">
+            <inheritdoc cref="F:FoodClient.ViewModels.MainPageViewModel.selectedUser"/>
+        </member>
         <member name="F:FoodClient.ViewModels.MainPageViewModel.logoutCommand">
             <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.LogoutCommand"/>.</summary>
         </member>
@@ -243,17 +260,29 @@
         <member name="P:FoodClient.ViewModels.MainPageViewModel.FilterFoodRequestsCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.FilterFoodRequestsAsync"/>.</summary>
         </member>
+        <member name="F:FoodClient.ViewModels.MainPageViewModel.filterForUserCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.FilterForUserCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.FilterForUserCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.FilterForUserAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.MainPageViewModel.filterByChosenOfferCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.FilterByChosenOfferCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.FilterByChosenOfferCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.FilterByChosenOfferAsync"/>.</summary>
+        </member>
+        <member name="F:FoodClient.ViewModels.MainPageViewModel.resetCommand">
+            <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.ResetCommand"/>.</summary>
+        </member>
+        <member name="P:FoodClient.ViewModels.MainPageViewModel.ResetCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.ResetAsync"/>.</summary>
+        </member>
         <member name="F:FoodClient.ViewModels.MainPageViewModel.navigateToCreateCommand">
             <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.NavigateToCreateCommand"/>.</summary>
         </member>
         <member name="P:FoodClient.ViewModels.MainPageViewModel.NavigateToCreateCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.NavigateToCreateAsync"/>.</summary>
-        </member>
-        <member name="F:FoodClient.ViewModels.MainPageViewModel.navigateToUserRequestsCommand">
-            <summary>The backing field for <see cref="P:FoodClient.ViewModels.MainPageViewModel.NavigateToUserRequestsCommand"/>.</summary>
-        </member>
-        <member name="P:FoodClient.ViewModels.MainPageViewModel.NavigateToUserRequestsCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodClient.ViewModels.MainPageViewModel.NavigateToUserRequestsAsync"/>.</summary>
         </member>
         <member name="T:FoodClient.Views.LogoutPage">
             <inheritdoc/>
@@ -327,6 +356,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewCommentText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewCommentText" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserId" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FoodRequests">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FoodRequests" generated properties.</summary>
         </member>
@@ -350,6 +382,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedIngredients">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedIngredients" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentUserFounds">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentUserFounds" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedUser">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedUser" generated properties.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
@@ -414,6 +455,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewCommentText">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewCommentText" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserId" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FoodRequests">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FoodRequests" generated properties.</summary>
         </member>
@@ -437,6 +481,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedIngredients">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedIngredients" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentUserFounds">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentUserFounds" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedUser">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedUser" generated properties.</summary>
         </member>
     </members>
 </doc>

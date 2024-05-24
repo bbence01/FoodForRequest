@@ -19,6 +19,7 @@ namespace FoodClient.ViewModels
 
         RestService _restService = new RestService("http://localhost:5274/");
         private CancellationTokenSource _cts;
+        [ObservableProperty]
         private string _userId;
 
         public FoodRequestForUserViewModel(string userId)
@@ -137,38 +138,6 @@ namespace FoodClient.ViewModels
                 SelectedIngredients.Remove(ingredient);
             }
         }
-        /*
-        private async Task SearchFoodRequestsAsync(string query)
-        {
-            _cts?.Cancel(); 
-            _cts = new CancellationTokenSource();
-            var token = _cts.Token;
-
-            try
-            {
-                IsBusy = true;
-                var items = await _restService.SearchAsync<FoodRequest>("foodrequest/Search", query, token);
-                FoodRequests.Clear();
-                foreach (var item in items)
-                {
-                    FoodRequests.Add(item);
-                }
-            }
-            catch (OperationCanceledException)
-            {
-                ErrorMessage = "Operation was canceled.";
-            }
-            catch (Exception ex)
-            {
-                ErrorMessage = $"An error occurred: {ex.Message}";
-                Console.WriteLine(ErrorMessage);
-            }
-            finally
-            {
-                IsBusy = false;
-            }
-        }
-        */
         private async Task SearchFoodRequestsAsync(string query)
         {
             _cts?.Cancel();
@@ -219,7 +188,7 @@ namespace FoodClient.ViewModels
 
         public async Task LoadAllIngredientsAsync()
         {
-            _cts?.Cancel(); // Cancel any ongoing task
+            _cts?.Cancel(); 
             _cts = new CancellationTokenSource();
             var token = _cts.Token;
 
@@ -252,7 +221,7 @@ namespace FoodClient.ViewModels
 
         private async Task FilterFoodRequestsAsync()
         {
-            _cts?.Cancel(); // Cancel any ongoing task
+            _cts?.Cancel(); 
             _cts = new CancellationTokenSource();
             var token = _cts.Token;
 

@@ -642,3 +642,4 @@ D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\F
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.IdentityModel.Logging.dll
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.IdentityModel.Tokens.dll
 D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-ios\iossimulator-x64\System.IdentityModel.Tokens.Jwt.dll
+D:\Egyetem\6.felev\MAUI\FoodForRequest\KF\KF\Backend\FoodForRequest\FoodClient\FoodClient\bin\Debug\net8.0-ios\iossimulator-x64\MvvmHelpers.dll
