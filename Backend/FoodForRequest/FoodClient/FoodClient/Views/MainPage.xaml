@@ -2,26 +2,68 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FoodClient.Views"
-             x:Class="FoodClient.Views.MainPage">
+             x:Class="FoodClient.Views.MainPage"
+             BackgroundColor="#FFFFFF">
+
+    <ContentPage.Resources>
+        <Style x:Key="SectionHeaderStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="TextColor" Value="#333333"/>
+            <Setter Property="Margin" Value="0,20,0,10"/>
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#007AFF"/>
+            <Setter Property="TextColor" Value="#FFFFFF"/>
+            <Setter Property="HeightRequest" Value="45"/>
+            <Setter Property="Margin" Value="0,10,0,0"/>
+        </Style>
+        <Style x:Key="IngredientItemStyle" TargetType="Border">
+            <Setter Property="BackgroundColor" Value="#f0f0f0"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="StrokeThickness" Value="1"/>
+            <Setter Property="Stroke" Value="#e0e0e0"/>
+        </Style>
+        <Style x:Key="SelectedIngredientItemStyle" TargetType="Border">
+            <Setter Property="BackgroundColor" Value="#e0e0e0"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="StrokeThickness" Value="1"/>
+            <Setter Property="Stroke" Value="#d0d0d0"/>
+        </Style>
+        <Style x:Key="IngredientButtonStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#007AFF"/>
+            <Setter Property="TextColor" Value="#FFFFFF"/>
+            <Setter Property="FontSize" Value="Small"/>
+            <Setter Property="Padding" Value="5,0"/>
+            <Setter Property="HorizontalOptions" Value="End"/>
+        </Style>
+    </ContentPage.Resources>
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="10" Spacing="20">
-                <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
-                <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" />
+            <StackLayout Padding="20" Spacing="20">
 
+                <Label Text="Search" Style="{StaticResource SectionHeaderStyle}"/>
+                <StackLayout>
+                    <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
+                    <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" Style="{StaticResource ButtonStyle}"/>
+                </StackLayout>
+
+                <Label Text="Filter by Ingredients" Style="{StaticResource SectionHeaderStyle}"/>
                 <StackLayout Orientation="Horizontal" Spacing="20">
                     <StackLayout>
-                        <Button Text="Load Ingredients" Command="{Binding LoadAllIngredientsCommand}" />
+                        <Button Text="Load Ingredients" Command="{Binding LoadAllIngredientsCommand}" Style="{StaticResource ButtonStyle}"/>
                         <Label Text="All Ingredients:" FontAttributes="Bold"/>
                         <CollectionView ItemsSource="{Binding AllIngredients}" SelectionMode="Single" HeightRequest="200">
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
-                                    <Border Margin="2" Padding="5" BackgroundColor="#f0f0f0">
-                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <Border Style="{StaticResource IngredientItemStyle}">
+                                        <Grid ColumnDefinitions="*, Auto" Padding="10">
                                             <Label Text="{Binding .}" VerticalOptions="Center"/>
-                                            <Button Text="Add" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=BindingContext.AddIngredientToFilterCommand}" CommandParameter="{Binding .}" HorizontalOptions="End"/>
-                                        </StackLayout>
+                                            <Button Text="Add" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=BindingContext.AddIngredientToFilterCommand}" CommandParameter="{Binding .}" Style="{StaticResource IngredientButtonStyle}" Grid.Column="1"/>
+                                        </Grid>
                                     </Border>
                                 </DataTemplate>
                             </CollectionView.ItemTemplate>
@@ -33,11 +75,11 @@
                         <CollectionView ItemsSource="{Binding SelectedIngredients}" SelectionMode="Single" HeightRequest="200">
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
-                                    <Border Margin="2" Padding="5" BackgroundColor="#e0e0e0">
-                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <Border Style="{StaticResource SelectedIngredientItemStyle}">
+                                        <Grid ColumnDefinitions="*, Auto" Padding="10">
                                             <Label Text="{Binding .}" VerticalOptions="Center"/>
-                                            <Button Text="Remove" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=BindingContext.RemoveIngredientFromFilterCommand}" CommandParameter="{Binding .}" HorizontalOptions="End"/>
-                                        </StackLayout>
+                                            <Button Text="Remove" Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=BindingContext.RemoveIngredientFromFilterCommand}" CommandParameter="{Binding .}" Style="{StaticResource IngredientButtonStyle}" Grid.Column="1"/>
+                                        </Grid>
                                     </Border>
                                 </DataTemplate>
                             </CollectionView.ItemTemplate>
@@ -45,31 +87,32 @@
                     </StackLayout>
                 </StackLayout>
 
-                <Button Text="Filter" Command="{Binding FilterFoodRequestsCommand}" />
+                <Button Text="Filter" Command="{Binding FilterFoodRequestsCommand}" Style="{StaticResource ButtonStyle}"/>
 
-                <Label Text="Select User:" FontAttributes="Bold"/>
+                <Label Text="Filter by User" Style="{StaticResource SectionHeaderStyle}"/>
                 <Picker ItemsSource="{Binding Users}" ItemDisplayBinding="{Binding UserName}" SelectedItem="{Binding SelectedUser}"/>
 
-                <Button Text="Filter For User" Command="{Binding FilterForUserCommand}"/>
-                <Button Text="Filter By Chosen Offer" Command="{Binding FilterByChosenOfferCommand}"/>
-                <Button Text="Reset" Command="{Binding ResetCommand}"/>
+                <Button Text="Filter For User" Command="{Binding FilterForUserCommand}" Style="{StaticResource ButtonStyle}"/>
+                <Button Text="Filter By Chosen Offer" Command="{Binding FilterByChosenOfferCommand}" Style="{StaticResource ButtonStyle}"/>
+                <Button Text="Reset" Command="{Binding ResetCommand}" Style="{StaticResource ButtonStyle}"/>
 
+                <Label Text="Food Requests" Style="{StaticResource SectionHeaderStyle}"/>
                 <CollectionView ItemsSource="{Binding FoodRequests}" SelectionMode="Single" SelectionChanged="OnSelectionChanged">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Border Margin="5" Padding="5">
+                            <Border Margin="5" Padding="10" BackgroundColor="#f9f9f9" StrokeThickness="1" Stroke="#e0e0e0" >
                                 <StackLayout>
-                                    <Label Text="{Binding Name}" FontAttributes="Bold"/>
-                                    <Label Text="{Binding Description}" />
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Medium" TextColor="#333333"/>
+                                    <Label Text="{Binding Description}" FontSize="Small" TextColor="#666666"/>
                                 </StackLayout>
                             </Border>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
 
-                <Button Text="Create New Food Request" Command="{Binding NavigateToCreateCommand}"/>
+                <Button Text="Create New Food Request" Command="{Binding NavigateToCreateCommand}" Style="{StaticResource ButtonStyle}"/>
 
-                <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}"/>
+                <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}" Color="#007AFF"/>
                 <Label Text="{Binding ErrorMessage}" TextColor="Red" />
             </StackLayout>
         </ScrollView>
