@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FoodClient.Views"
              x:Class="FoodClient.Views.MainPage"
+              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              BackgroundColor="#FFFFFF">
 
     <ContentPage.Resources>
@@ -45,11 +46,17 @@
         <ScrollView>
             <StackLayout Padding="20" Spacing="20">
 
-                <Label Text="Search" Style="{StaticResource SectionHeaderStyle}"/>
-                <StackLayout>
-                    <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
-                    <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" Style="{StaticResource ButtonStyle}"/>
-                </StackLayout>
+               <toolkit:Expander>
+                    <toolkit:Expander.Header>
+                        <Label Text="Search" Style="{StaticResource SectionHeaderStyle}"/>
+                    </toolkit:Expander.Header>
+                    <toolkit:Expander.Content>
+                        <StackLayout>
+                            <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
+                            <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" Style="{StaticResource ButtonStyle}"/>
+                        </StackLayout>
+                    </toolkit:Expander.Content>
+                </toolkit:Expander>
 
                 <Label Text="Filter by Ingredients" Style="{StaticResource SectionHeaderStyle}"/>
                 <StackLayout Orientation="Horizontal" Spacing="20">

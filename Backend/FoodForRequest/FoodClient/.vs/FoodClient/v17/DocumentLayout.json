@@ -308,7 +308,7 @@
               "RelativeDocumentMoniker": "FoodClient\\Views\\MainPage.xaml",
               "ToolTip": "D:\\Egyetem\\6.felev\\MAUI\\FoodForRequest\\KF\\KF\\Backend\\FoodForRequest\\FoodClient\\FoodClient\\Views\\MainPage.xaml",
               "RelativeToolTip": "FoodClient\\Views\\MainPage.xaml",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAowHgAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-22T18:40:27.595Z",
               "EditorCaption": ""
@@ -323,8 +323,7 @@
               "RelativeToolTip": "FoodClient\\Views\\LogoutPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-21T11:23:17.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T11:23:17.781Z"
             },
             {
               "$type": "Document",
@@ -418,8 +417,7 @@
               "RelativeToolTip": "FoodClient\\FoodClient.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-19T18:13:57.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T18:13:57.808Z"
             },
             {
               "$type": "Document",
