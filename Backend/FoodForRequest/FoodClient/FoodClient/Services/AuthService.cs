@@ -34,6 +34,16 @@ namespace FoodForRequestApp.Services
             return null;
         }
 
+        public static async Task<bool> RegisterAsync(RegisterViewModel registerData)
+        {
+            var json = JsonSerializer.Serialize(registerData);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var response = await client.PostAsync("http://localhost:5274/Auth/register", content);
+
+            return response.IsSuccessStatusCode;
+        }
+
         public static async Task LogoutAsync()
         {
             var client = await GetAuthenticatedClientAsync();

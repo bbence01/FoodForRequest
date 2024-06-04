@@ -3,86 +3,104 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FoodClient.Views.FoodRequestDetailsPage"
              x:Name="Page"
-             Title="Food Request Details">
+             Title="Food Request Details"
+             BackgroundColor="#FFFFFF">
+
+    <ContentPage.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#007AFF"/>
+            <Setter Property="TextColor" Value="#FFFFFF"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="CornerRadius" Value="25"/>
+            <Setter Property="Margin" Value="0,10,0,0"/>
+        </Style>
+        <Style x:Key="SectionHeaderStyle" TargetType="Label">
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="TextColor" Value="#333333"/>
+            <Setter Property="Margin" Value="0,20,0,10"/>
+        </Style>
+        <Style x:Key="DetailLabelStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="TextColor" Value="#666666"/>
+            <Setter Property="Margin" Value="0,5,0,5"/>
+        </Style>
+    </ContentPage.Resources>
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="10" Spacing="10">
+            <StackLayout Padding="20" Spacing="20">
 
                 <VerticalStackLayout IsVisible="{Binding webimg}">
-                    <Image IsVisible="{Binding webimg}" Source="{Binding PictureSource}" Aspect="AspectFill" />
+                    <Image Source="{Binding PictureSource}" Aspect="AspectFill" />
                 </VerticalStackLayout>
 
                 <Image IsVisible="{Binding base64}" Source="{Binding PictureIMG.Source}" Aspect="AspectFill" />
 
-                <Label Text="Name:" FontAttributes="Bold"/>
-                <Label Text="{Binding FoodRequest.Name}"/>
+                <Grid ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto" RowSpacing="10" Margin="0,10">
+                    <Label Text="Name:" Style="{StaticResource SectionHeaderStyle}" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="{Binding FoodRequest.Name}" Style="{StaticResource DetailLabelStyle}" Grid.Row="0" Grid.Column="1"/>
 
-                <Label Text="Description:" FontAttributes="Bold"/>
-                <Label Text="{Binding FoodRequest.Description}"/>
+                    <Label Text="Description:" Style="{StaticResource SectionHeaderStyle}" Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="{Binding FoodRequest.Description}" Style="{StaticResource DetailLabelStyle}" Grid.Row="1" Grid.Column="1"/>
 
-                <Label Text="Payment:" FontAttributes="Bold"/>
-                <Label Text="{Binding FoodRequest.Payment}"/>
+                    <Label Text="Payment:" Style="{StaticResource SectionHeaderStyle}" Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="{Binding FoodRequest.Payment}" Style="{StaticResource DetailLabelStyle}" Grid.Row="2" Grid.Column="1"/>
 
-                <Label Text="Status:" FontAttributes="Bold"/>
-                <Label Text="IsDone:" FontAttributes="Bold"/>
-                <Label Text="{Binding FoodRequest.IsDone}"/>
-                <Label Text="InProgress:" FontAttributes="Bold"/>
-                <Label Text="{Binding FoodRequest.InProgress}"/>
+                    <Label Text="Status:" Style="{StaticResource SectionHeaderStyle}" Grid.Row="3" Grid.Column="0"/>
+                    <Label Text="{Binding FoodRequest.Status}" Style="{StaticResource DetailLabelStyle}" Grid.Row="3" Grid.Column="1"/>
 
-                <Label Text="Delivery Options:" FontAttributes="Bold"/>
-                <Label Text="{Binding FoodRequest.Deliveryoptions}"/>
+                    <Label Text="IsDone:" Style="{StaticResource SectionHeaderStyle}" Grid.Row="4" Grid.Column="0"/>
+                    <Label Text="{Binding FoodRequest.IsDone}" Style="{StaticResource DetailLabelStyle}" Grid.Row="4" Grid.Column="1"/>
 
-                <Label Text="Ingredients:" FontAttributes="Bold"/>
-                <CollectionView ItemsSource="{Binding Ingredients}">
+                    <Label Text="InProgress:" Style="{StaticResource SectionHeaderStyle}" Grid.Row="5" Grid.Column="0"/>
+                    <Label Text="{Binding FoodRequest.InProgress}" Style="{StaticResource DetailLabelStyle}" Grid.Row="5" Grid.Column="1"/>
+
+                    <Label Text="Delivery Options:" Style="{StaticResource SectionHeaderStyle}" Grid.Row="6" Grid.Column="0"/>
+                    <Label Text="{Binding FoodRequest.Deliveryoptions}" Style="{StaticResource DetailLabelStyle}" Grid.Row="6" Grid.Column="1"/>
+                </Grid>
+
+                <Label Text="Ingredients:" Style="{StaticResource SectionHeaderStyle}"/>
+                <CollectionView ItemsSource="{Binding Ingredients}" Margin="0,0,0,10">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Name}" Style="{StaticResource DetailLabelStyle}"/>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
 
-                <Label Text="Offers:" FontAttributes="Bold"/>
-                <CollectionView ItemsSource="{Binding Offers}">
+                <Label Text="Offers:" Style="{StaticResource SectionHeaderStyle}"/>
+                <CollectionView ItemsSource="{Binding Offers}" Margin="0,0,0,10">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
-                                <Label Text="{Binding Id}" VerticalOptions="Center"/>
-                                <Label Text=" Choosen:" FontAttributes="Bold"/>
-
-                                <Label Text="{Binding Choosen}" VerticalOptions="Center"/>
-
-                                <Button Text="Choose" Command="{Binding Source={x:Reference Page}, Path=BindingContext.ChooseOfferCommand}" CommandParameter="{Binding Id}" IsVisible="{Binding Source={x:Reference Page}, Path=BindingContext.IsRequestor}" HorizontalOptions="End"/>
+                                <Label Text="{Binding Id}" VerticalOptions="Center" FontSize="Small"/>
+                                <Label Text="Chosen:" FontAttributes="Bold" FontSize="Small"/>
+                                <Label Text="{Binding Chosen}" VerticalOptions="Center" FontSize="Small"/>
+                                <Button Text="Choose" Command="{Binding Source={x:Reference Page}, Path=BindingContext.ChooseOfferCommand}" CommandParameter="{Binding Id}" IsVisible="{Binding Source={x:Reference Page}, Path=BindingContext.IsRequestor}" HorizontalOptions="End" Style="{StaticResource ButtonStyle}"/>
                             </StackLayout>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
-                <Button Text="Add Offer" Command="{Binding AddOfferCommand}"/>
+                <Button Text="Add Offer" Command="{Binding AddOfferCommand}" Style="{StaticResource ButtonStyle}"/>
 
-
-
-
-
-
-
-                <Label Text="Comments:" FontAttributes="Bold"/>
-                <CollectionView ItemsSource="{Binding Comments}">
+                <Label Text="Comments:" Style="{StaticResource SectionHeaderStyle}"/>
+                <CollectionView ItemsSource="{Binding Comments}" Margin="0,0,0,10">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Label Text="{Binding Text}"/>
+                            <Label Text="{Binding Text}" Style="{StaticResource DetailLabelStyle}"/>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
 
-                <Entry Placeholder="Write a comment..." Text="{Binding NewCommentText}"/>
-                <Button Text="Post Comment" Command="{Binding PostCommentCommand}"/>
+                <Entry Placeholder="Write a comment..." Text="{Binding NewCommentText}" Margin="0,10"/>
+                <Button Text="Post Comment" Command="{Binding PostCommentCommand}" Style="{StaticResource ButtonStyle}"/>
 
+                <Button Text="Complete Request" Command="{Binding CompleteRequestCommand}" IsVisible="{Binding CanCompleteRequest}" Style="{StaticResource ButtonStyle}"/>
+                <Button Text="Cancel Request" Command="{Binding CancelRequestCommand}" IsVisible="{Binding CanCancelRequest}" Style="{StaticResource ButtonStyle}"/>
+                <Button Text="Resubmit Request" Command="{Binding ResubmitRequestCommand}" IsVisible="{Binding CanCancelRequest}" Style="{StaticResource ButtonStyle}"/>
 
-                <Button Text="Complete Request" Command="{Binding CompleteRequestCommand}" IsVisible="{Binding CanCompleteRequest}"/>
-                <Button Text="Cancel Request" Command="{Binding CancelRequestCommand}" IsVisible="{Binding CanCancelRequest}"/>
-                <Button Text="Resubmit Request" Command="{Binding ResubmitRequestCommand}" IsVisible="{Binding CanCancelRequest}"/>
-
-                <Button Text="Update" Command="{Binding NavigateToUpdateCommand}"/>
+                <Button Text="Update" Command="{Binding NavigateToUpdateCommand}" Style="{StaticResource ButtonStyle}"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -64,8 +64,9 @@ namespace FoodForRequest.Controllers
                 Email = model.Email,
                 UserName = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                FoodUserName = model.FoodUserName
-
+                FoodUserName = model.FoodUserName,
+                Founds = 10000
+               
 
 
             };

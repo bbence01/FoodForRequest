@@ -3,12 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FoodClient.Views"
              x:Class="FoodClient.Views.MainPage"
-              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              BackgroundColor="#FFFFFF">
 
     <ContentPage.Resources>
         <Style x:Key="SectionHeaderStyle" TargetType="Label">
-            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="FontSize" Value="Large"/>
             <Setter Property="FontAttributes" Value="Bold"/>
             <Setter Property="TextColor" Value="#333333"/>
             <Setter Property="Margin" Value="0,20,0,10"/>
@@ -16,7 +16,8 @@
         <Style x:Key="ButtonStyle" TargetType="Button">
             <Setter Property="BackgroundColor" Value="#007AFF"/>
             <Setter Property="TextColor" Value="#FFFFFF"/>
-            <Setter Property="HeightRequest" Value="45"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="CornerRadius" Value="25"/>
             <Setter Property="Margin" Value="0,10,0,0"/>
         </Style>
         <Style x:Key="IngredientItemStyle" TargetType="Border">
@@ -45,23 +46,22 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="20" Spacing="20">
-
-               <toolkit:Expander>
+                <toolkit:Expander>
                     <toolkit:Expander.Header>
                         <Label Text="Search" Style="{StaticResource SectionHeaderStyle}"/>
                     </toolkit:Expander.Header>
                     <toolkit:Expander.Content>
-                        <StackLayout>
+                        <StackLayout Spacing="10">
                             <Entry Placeholder="Search by name" Text="{Binding SearchQuery}" />
                             <Button Text="Search" Command="{Binding SearchFoodRequestsCommand}" CommandParameter="{Binding SearchQuery}" Style="{StaticResource ButtonStyle}"/>
                         </StackLayout>
                     </toolkit:Expander.Content>
                 </toolkit:Expander>
+                <Button Text="Load Ingredients" Command="{Binding LoadAllIngredientsCommand}" Style="{StaticResource ButtonStyle}"/>
 
                 <Label Text="Filter by Ingredients" Style="{StaticResource SectionHeaderStyle}"/>
-                <StackLayout Orientation="Horizontal" Spacing="20">
-                    <StackLayout>
-                        <Button Text="Load Ingredients" Command="{Binding LoadAllIngredientsCommand}" Style="{StaticResource ButtonStyle}"/>
+                <Grid ColumnDefinitions="*,*" Margin="20">
+                    <StackLayout Grid.Column="0">
                         <Label Text="All Ingredients:" FontAttributes="Bold"/>
                         <CollectionView ItemsSource="{Binding AllIngredients}" SelectionMode="Single" HeightRequest="200">
                             <CollectionView.ItemTemplate>
@@ -77,7 +77,7 @@
                         </CollectionView>
                     </StackLayout>
 
-                    <StackLayout>
+                    <StackLayout Grid.Column="1">
                         <Label Text="Selected Ingredients:" FontAttributes="Bold"/>
                         <CollectionView ItemsSource="{Binding SelectedIngredients}" SelectionMode="Single" HeightRequest="200">
                             <CollectionView.ItemTemplate>
@@ -92,16 +92,18 @@
                             </CollectionView.ItemTemplate>
                         </CollectionView>
                     </StackLayout>
-                </StackLayout>
+                </Grid>
 
                 <Button Text="Filter" Command="{Binding FilterFoodRequestsCommand}" Style="{StaticResource ButtonStyle}"/>
 
                 <Label Text="Filter by User" Style="{StaticResource SectionHeaderStyle}"/>
                 <Picker ItemsSource="{Binding Users}" ItemDisplayBinding="{Binding UserName}" SelectedItem="{Binding SelectedUser}"/>
 
-                <Button Text="Filter For User" Command="{Binding FilterForUserCommand}" Style="{StaticResource ButtonStyle}"/>
-                <Button Text="Filter By Chosen Offer" Command="{Binding FilterByChosenOfferCommand}" Style="{StaticResource ButtonStyle}"/>
-                <Button Text="Reset" Command="{Binding ResetCommand}" Style="{StaticResource ButtonStyle}"/>
+                <Grid ColumnDefinitions="*,*,*">
+                    <Button Text="Filter For User" Command="{Binding FilterForUserCommand}" Style="{StaticResource ButtonStyle}" Grid.Column="0"/>
+                    <Button Text="Filter By Chosen Offer" Command="{Binding FilterByChosenOfferCommand}" Style="{StaticResource ButtonStyle}" Grid.Column="1"/>
+                    <Button Text="Reset" Command="{Binding ResetCommand}" Style="{StaticResource ButtonStyle}" Grid.Column="2"/>
+                </Grid>
 
                 <Label Text="Food Requests" Style="{StaticResource SectionHeaderStyle}"/>
                 <CollectionView ItemsSource="{Binding FoodRequests}" SelectionMode="Single" SelectionChanged="OnSelectionChanged">

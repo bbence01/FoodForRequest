@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FoodClient.Views.FoodRequestUpdatePage"
+     xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Name="UpdatePage"
-             Title="Update Food Request">
+             Title="Update Food Request" BackgroundColor="#FFFFFF">
 
     <ContentPage.Content>
         <ScrollView>
@@ -20,10 +21,21 @@
                 <Label Text="Delivery Options:" FontAttributes="Bold"/>
                 <Entry Text="{Binding FoodRequest.Deliveryoptions}"/>
 
-                <Label Text="Picture URL:" FontAttributes="Bold"/>
-                <Entry Text="{Binding FoodRequest.PictureURL}"/>
-                <Button Text="Select Image" Command="{Binding SelectImageCommand}"/>
+               
 
+
+                <toolkit:Expander>
+                    <toolkit:Expander.Header>
+                        <Label Text="Picture URL:" FontAttributes="Bold"/>
+                    </toolkit:Expander.Header>
+                    <toolkit:Expander.Content>
+                        <StackLayout>
+                            <Entry Text="{Binding FoodRequest.PictureURL}"/>
+                        </StackLayout>
+                    </toolkit:Expander.Content>
+                </toolkit:Expander>
+                
+                <Button Text="Select Image" Command="{Binding SelectImageCommand}"/>
 
                 <Label Text="Ingredients:" FontAttributes="Bold"/>
                 <CollectionView ItemsSource="{Binding Ingredients}">

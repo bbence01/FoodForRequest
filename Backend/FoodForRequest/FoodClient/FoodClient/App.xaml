@@ -1,4 +1,4 @@
-﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FoodClient"
@@ -9,6 +9,20 @@
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
+
+            <Style TargetType="FlyoutItem">
+                <Setter Property="Shell.BackgroundColor" Value="#E0E0E0" />
+                <Setter Property="Shell.ForegroundColor" Value="#000000" />
+                <Setter Property="Shell.TitleColor" Value="#000000" />
+                <Setter Property="Shell.DisabledColor" Value="#757575" />
+                <Setter Property="Shell.UnselectedColor" Value="#757575" />
+            </Style>
+
+            <Style TargetType="MenuItem">
+                <Setter Property="Shell.BackgroundColor" Value="#FFFFFF" />
+                <Setter Property="Shell.ForegroundColor" Value="#757575" />
+                <Setter Property="Shell.TitleColor" Value="#757575" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

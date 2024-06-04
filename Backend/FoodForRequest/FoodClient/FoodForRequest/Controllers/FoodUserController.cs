@@ -105,6 +105,8 @@ namespace WordQuiz.Controllers
             FoodUser p = (await userManager.GetUserAsync(User));
             System.Diagnostics.Debug.WriteLine("User: " + p); // Log the User object
 
+            //return p;
+
             return new
             {
                 email = p.Email,

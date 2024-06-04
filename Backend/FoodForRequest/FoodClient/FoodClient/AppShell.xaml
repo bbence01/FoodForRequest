@@ -4,13 +4,21 @@
        xmlns:local="clr-namespace:FoodClient.Views"
        Title="FoodClient"
        Shell.FlyoutBehavior="Flyout"
-       x:Class="FoodClient.AppShell">
+       x:Class="FoodClient.AppShell"
+       BackgroundColor="#FFFFFF">
 
+    <Shell.Resources>
+        <Style TargetType="FlyoutItem">
+            <Setter Property="Shell.BackgroundColor" Value="#F5F5F5" />
+            <Setter Property="Shell.ForegroundColor" Value="#333333" />
+            <Setter Property="Shell.TitleColor" Value="#333333" />
+            <Setter Property="Shell.DisabledColor" Value="#757575" />
+            <Setter Property="Shell.UnselectedColor" Value="#757575" />
+        </Style>
+    </Shell.Resources>
 
     <MenuItem Text="{Binding CurrentUserFounds, StringFormat='Balance: {0:C}'}" IsEnabled="False" />
-    <MenuItem Text="{Binding Name, StringFormat='User: {0}'} " IsEnabled="False" />
-
-
+    <MenuItem Text="{Binding Name, StringFormat='User: {0}'}" IsEnabled="False" />
 
     <FlyoutItem Title="Main Page" Icon="icon.png">
         <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
@@ -20,15 +28,7 @@
         <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" />
     </FlyoutItem>
 
-
-    
-
-
-    <ShellContent
-          Title="LogoutPage"
-          ContentTemplate="{DataTemplate local:LogoutPage}"
-          Route="Logout" />
-    
+    <ShellContent Title="Logout" Route="Logout" ContentTemplate="{DataTemplate local:LogoutPage}" />
     <ShellContent Route="FoodRequestDetailsPage" ContentTemplate="{DataTemplate local:FoodRequestDetailsPage}" />
     <ShellContent Route="FoodRequestUpdatePage" ContentTemplate="{DataTemplate local:FoodRequestUpdatePage}" />
     <ShellContent Route="FoodRequestCreatePage" ContentTemplate="{DataTemplate local:FoodRequestCreatePage}" />

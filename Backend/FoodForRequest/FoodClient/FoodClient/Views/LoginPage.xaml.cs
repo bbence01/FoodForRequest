@@ -8,7 +8,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Maui.Storage;
 using FoodClient.ViewModels;
-
+using Microsoft.Maui.Controls;
 
 namespace FoodClient.Views
 {
@@ -44,6 +44,37 @@ namespace FoodClient.Views
                 messageLabel.IsVisible = true;
             }
         }
+
+        private async void OnRegisterButtonClicked(object sender, EventArgs e)
+        {
+            if (registerPasswordEntry.Text != registerConfirmPasswordEntry.Text)
+            {
+                registerMessageLabel.Text = "Passwords do not match.";
+                registerMessageLabel.IsVisible = true;
+                return;
+            }
+
+            var registerData = new RegisterViewModel
+            {
+                Email = registerEmailEntry.Text,
+                FoodUserName = registerUserNameEntry.Text,
+                Password = registerPasswordEntry.Text
+            };
+
+            var response = await AuthService.RegisterAsync(registerData);
+
+            if (response)
+            {
+                registerMessageLabel.TextColor = Colors.Green;
+                registerMessageLabel.Text = "Registration successful. You can now log in.";
+                registerMessageLabel.IsVisible = true;
+            }
+            else
+            {
+                registerMessageLabel.TextColor = Colors.Red;
+                registerMessageLabel.Text = "Registration failed. Please try again.";
+                registerMessageLabel.IsVisible = true;
+            }
+        }
     }
 }
-
